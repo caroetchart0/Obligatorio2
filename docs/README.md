@@ -460,13 +460,13 @@ Referencias a fuentes de información
 Caracterización de usuarios: User Personas
   
   Comprador:
-  https://github.com/caroetchart0/Obligatorio2/issues/2#issue-1245599046
+  ![comprador](https://user-images.githubusercontent.com/102233707/169891190-e79ffbd7-cde3-4874-9da4-9b71e5360cd9.jpeg)
   
   Vendedor:
-  https://github.com/caroetchart0/Obligatorio2/issues/3#issue-1245599855
+  ![vendedor](https://user-images.githubusercontent.com/102233707/169891327-448cbc3d-2c95-4f81-b5f1-9409368c08c9.jpeg)
   
   Interesado en tecnología:
-  https://github.com/caroetchart0/Obligatorio2/issues/4#issue-1245600753
+  ![InteresadoEnTecnologia](https://user-images.githubusercontent.com/102233707/169891469-5a9b2053-0716-4d2d-a950-410ddcb19524.jpeg)
 
 Modelo conceptual del problema
 
