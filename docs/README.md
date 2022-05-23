@@ -370,16 +370,21 @@ OpenSea-
 En la barra de navegación encontramos las opciones: Explorar, estadísticas y recursos.
    - Explorar: tiene las diferentes categorías de NFT como Arte, coleccionables, nombres de dominio, música, fotografía, deportes, cartas intercambiables, utilidades y mundos virtuales.
   
-  ****** IMAGEN ******
+<img width="1232" alt="OpenSeaExplorar" src="https://user-images.githubusercontent.com/102233707/169897128-045480d2-fa44-40ce-ab77-3b3064cc3cd5.png">
+
    - Estadísticas: Tiene opciones de ranking y actividad
   
-  ****** IMAGEN ******
+<img width="999" alt="OpenSeaEstadisticas" src="https://user-images.githubusercontent.com/102233707/169897514-86c0a727-aa45-4ef7-ab17-2112bdeabc34.png">
+  
    - Recursos: Tiene opciones de ayuda, estado de la plataforma, asociados, blog, documentos y noticias.
   
-  ****** IMAGEN ******
+<img width="1019" alt="Captura de Pantalla 2022-05-23 a la(s) 17 07 18" src="https://user-images.githubusercontent.com/102233707/169897724-3d4fe9db-9371-401e-b916-06e8d1c6b805.png">
   
   Al inicio del sitio encontramos dos opciones para comenzar a interactuar con este marketplace. Dichas opciones son “explore” o explorar y “create” crear en inglés.
 Luego en ese mismo inicio presenta algunos NFT destacados, al igual que los “Top collections” y también los que están “trending” en las diferentes categorías.
+  
+<img width="955" alt="OpenSeaInicio" src="https://user-images.githubusercontent.com/102233707/169897912-ca0f04eb-2eec-4884-b9de-f50ddb9fd169.png">
+
 
   Ventajas y Desventajas del uso de OpenSea:11
   <table>
