@@ -304,6 +304,16 @@ Uso de ramas separadas de 'main'
     <td>Carolina Etchart</td>
     <td>Imagen de Bocetos IU - Ayuda</td>
   </tr> 
+  <tr>
+    <td> 23/5 </td>
+    <td> Carolina Etchart </td>
+    <td> Creación de nuevo repositorio y ramas separadas de main para segunda entrega </td>
+  </tr>
+  <tr>
+    <td> 23/5 </td>
+    <td> Renata Flangini </td>
+    <td> Pasaje de repositorio viejo a nuevo </td>
+  </tr>
   </table>
   
   ## Elicitación
@@ -348,8 +358,104 @@ Un usuario que quiera comprar un NFT debe poseer una billetera para NFT y tener 
   - Perspectivas de los mercados NFT
   
 “Activate consulting”, empresa de consultoría de gestión para las industrias de tecnología y entretenimiento destacó que los mercados NFT podrían convertirse en la corriente principal para 2022. Dicha empresa recomienda la implementación de compra/venta de NFT. En un futuro aseguran que se ampliará el uso de los NFT a distintas industrias. “A medida que más tiempo de los consumidores migran hacia las experiencias digitales y crece el interés en el metaverso, creemos que todas las empresas de tecnología y medios necesitarán una estrategia NFT.”4 Afirma Activate Consulting. El mercado de los NFT creció un 5000% durante el primer trimestre del 2021 con respecto al mismo período en el año anterior.
+  
+  Análisis de Interfases de Usuario
+  
+OpenSea-
+  
+ “OpenSea es el primer y más grande mercado de bienes digitales propiedad de los usuarios, que incluyen objetos de colección, artículos de juegos, nombres de dominio, arte digital y otros activos respaldados por una Blockchain.”2
+
+  - Interfaz: 
+
+En la barra de navegación encontramos las opciones: Explorar, estadísticas y recursos.
+   - Explorar: tiene las diferentes categorías de NFT como Arte, coleccionables, nombres de dominio, música, fotografía, deportes, cartas intercambiables, utilidades y mundos virtuales.
+  
+  ****** IMAGEN ******
+   - Estadísticas: Tiene opciones de ranking y actividad
+  
+  ****** IMAGEN ******
+   - Recursos: Tiene opciones de ayuda, estado de la plataforma, asociados, blog, documentos y noticias.
+  
+  ****** IMAGEN ******
+  
+  Al inicio del sitio encontramos dos opciones para comenzar a interactuar con este marketplace. Dichas opciones son “explore” o explorar y “create” crear en inglés.
+Luego en ese mismo inicio presenta algunos NFT destacados, al igual que los “Top collections” y también los que están “trending” en las diferentes categorías.
+
+  Ventajas y Desventajas del uso de OpenSea:11
+  <table>
+        <tr>
+            <td>Ventajas</td>
+            <td>Desventajas</td>
+        </tr>
+        <tr>
+            <td>Apto para principiantes</td>
+            <td>Sólo Admite Ethereum, Polygon y Klatyn</td>
+        </tr>
+        <tr>
+            <td>Buenos Honorarios, Bajas comisiones</td>
+            <td>No admite Pagos con dinero fiduciario</td>
+        </tr>
+        <tr>
+            <td>El Mercado de NFTs mejor establecido</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Amplia Variedad de NFTs</td>
+            <td></td>
+        </tr>
+</table>
+  
+  Rarible-
+  
+“Es una plataforma NFT para proteger objetos de colección digitales protegidos con tecnología blockchain”. “Los usuarios de Rarible también pueden crear y acuñar sus propias NFT dentro de la plataforma, ofreciendo la accesibilidad necesaria para quienes no tienen una gran experiencia en el mundo de la codificación”2
+  
+  - Interfaz
+En la barra de navegación hay un buscador, un menú con las opciones Explore (explorar), My Profile (mi perfil), Following (seguidos)  y Activity (actividad). También están las opciones de crear e iniciar sesión.
+  
+  ****** IMAGEN ******
+  
+    - Explorar:
+  
+  ****** IMAGEN ******
+  
+    - Mi perfil y seguidos: Previo a la visualización del perfil, se debe crear una cuenta
+ 
+  ****** IMAGEN ******
+  
+    - Actividad:
+  
+  ****** IMAGEN ******
+  
+  Guía para el uso de rarible: https://ciberninjas.com/guia-nft-rarible/ 
+
+  Ventajas y Desventajas de Rarible 12
+<table>
+    <tr>
+        <td>Ventajas</td>
+        <td>Desventajas</td>
+    </tr>
+    <tr>
+        <td>Este marketplace es fácil de usar y no requiere conocimientos de codificación.</td>
+        <td>RARI no es compatible con las API o el almacenamiento de IPFS, ni tiene una hoja de ruta oficial o un whitepaper.</td>
+    </tr>
+    <tr>
+        <td>La plataforma recompensa con tokens RARI a vendedores y compradores de NFT en la red.</td>
+        <td>Este servicio cobra una tarifa de 2,5% tanto al vendedor como al comprador</td>
+    </tr>
+    <tr>
+        <td>Los holders de tokens RARI pueden votar sobre propuestas que afecten a la plataforma.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Los usuarios pueden pagar con su tarjeta de crédito, débito o Google Play en Rarible</td>
+        <td></td>
+    </tr>
+</table>
+
+
 
 Referencias a fuentes de información
+  
 
 Caracterización de usuarios: User Personas
 
