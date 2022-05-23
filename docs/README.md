@@ -454,10 +454,10 @@ En la barra de navegación hay un buscador, un menú con las opciones Explore (e
 
 
 
-Referencias a fuentes de información
+## Referencias a fuentes de información
   
 
-Caracterización de usuarios: User Personas
+## Caracterización de usuarios: User Personas
   
   Comprador:
   ![comprador](https://user-images.githubusercontent.com/102233707/169891190-e79ffbd7-cde3-4874-9da4-9b71e5360cd9.jpeg)
@@ -468,7 +468,11 @@ Caracterización de usuarios: User Personas
   Interesado en tecnología:
   ![InteresadoEnTecnologia](https://user-images.githubusercontent.com/102233707/169891469-5a9b2053-0716-4d2d-a950-410ddcb19524.jpeg)
 
-Modelo conceptual del problema
+## Modelo conceptual del problema
+El sitio a desarrollar debe contemplar las principales funcionalidades de los sitios del estilo, como por ejemplo OpenSea. A partir de la investigación, el análisis de interfaces y la entrevista, llegamos a un acuerdo de los requerimientos necesarios para poder desarrollar dicho sistema lo más acercado a un sitio oficial de marketplace.
+El alcance del proyecto abarca funcionalidades para los distintos usuarios que definimos anteriormente. Si bien un interesado en la tecnología no se ve reflejado como un usuario final en el sistema, puede tomar el rol de cualquiera de los dos usuarios definidos que son Comprador y Vendedor. 
+Comenzaremos desarrollando las funcionalidades comunes de Comprador y Vendedor. Estas son la creación de un usuario en el sitio, en el momento de la creación del usuario no se especifica que ese usuario será Comprador o Vendedor. Ambos tipos de usuario deben vincular su billetera, en nuestro caso, será únicamente MetaMask que es un software de criptomoneda que es instalado como extensión de un navegador web. Este interactúa con la plataforma de blockchain de Ethereum. Ambos roles tienen una funcionalidad donde se muestra el perfil de usuario que muestra listados de NFTs para la venta, comprados. Por otro lado, se permite editar el perfil.
+En el inicio del sitio se mostrarán los NFTs distribuidos en toda la página y habrán opciones variadas de filtrado de los NFTs.
 
 ## Especificación
 
