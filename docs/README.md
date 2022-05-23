@@ -458,6 +458,15 @@ Referencias a fuentes de información
   
 
 Caracterización de usuarios: User Personas
+  
+  Comprador:
+  https://github.com/caroetchart0/Obligatorio2/issues/2#issue-1245599046
+  
+  Vendedor:
+  https://github.com/caroetchart0/Obligatorio2/issues/3#issue-1245599855
+  
+  Interesado en tecnología:
+  https://github.com/caroetchart0/Obligatorio2/issues/4#issue-1245600753
 
 Modelo conceptual del problema
 
