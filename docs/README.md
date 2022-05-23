@@ -417,19 +417,19 @@ Luego en ese mismo inicio presenta algunos NFT destacados, al igual que los “T
   - Interfaz
 En la barra de navegación hay un buscador, un menú con las opciones Explore (explorar), My Profile (mi perfil), Following (seguidos)  y Activity (actividad). También están las opciones de crear e iniciar sesión.
   
-  ****** IMAGEN ******
+<img width="1059" alt="RaribleInterfaz" src="https://user-images.githubusercontent.com/102233707/169900438-a6bb93ba-b8dd-4c6e-a22e-3c272f0cc0ad.png">
   
     - Explorar:
   
-  ****** IMAGEN ******
+<img width="1066" alt="Captura de Pantalla 2022-05-23 a la(s) 17 29 02" src="https://user-images.githubusercontent.com/102233707/169900796-450f5a26-73aa-4847-9f0a-c9b4b1fe3f64.png">
   
     - Mi perfil y seguidos: Previo a la visualización del perfil, se debe crear una cuenta
  
-  ****** IMAGEN ******
+<img width="1067" alt="RariblePerfil" src="https://user-images.githubusercontent.com/102233707/169901434-336c1ab7-515d-4931-9cdb-46b5302d4eeb.png">
   
     - Actividad:
   
-  ****** IMAGEN ******
+<img width="1053" alt="RaribleActividad" src="https://user-images.githubusercontent.com/102233707/169901596-7885859a-820c-47ba-b15e-107ed9fa08d3.png">
   
   Guía para el uso de rarible: https://ciberninjas.com/guia-nft-rarible/ 
 
