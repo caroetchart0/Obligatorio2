@@ -460,7 +460,53 @@ En la barra de navegación hay un buscador, un menú con las opciones Explore (e
 
 
 ## Referencias a fuentes de información
-  
+  https://www.scribbr.es/detector-de-plagio/generador-apa/
+<p>
+1 S. (2022, 9 febrero). Qué son los NFT y por qué suscitan tanto interés en el mercado digital. Semana.com Últimas Noticias de Colombia y el Mundo. Recuperado 23 de abril de 2022, de https://www.semana.com/tecnologia/articuloque-son-los-nft-y-por-que-suscitan-tanto-interes-en-el-mercado-digital/202254/ 
+</p>
+<p>
+2 Ciberninjas. (2022, 23 marzo). 16 Mejores Mercados de Arte Digital NFT u Tokens No Fungibles. Recuperado 23 de abril de 2022, de https://ciberninjas.com/mejores-mercados-nft/ 
+</p>
+<p>
+3 Observador, E. (2022, 14 febrero). ¿Cómo se compran NFT y qué tiendas hay en el mercado? El Observador. Recuperado 23 de abril de 2022, de https://www.elobservador.com.uy/nota/como-se-compran-nft-y-que-tiendas-hay-en-el-mercado--20222135037 
+</p>
+<p>
+4 SDPnoticias, R. (2021, 2 diciembre). ¿Qué es el mercado NFT y cuáles son sus perspectivas para 2022? Sdpnoticias. Recuperado 23 de abril de 2022, de https://www.sdpnoticias.com/negocios/que-es-el-mercado-nft-y-cuales-son-sus-perspectivas-para-2022/ 
+</p>
+<p>
+5 Fernández, Y. (2022, 22 abril). Criptomonedas: qué son, cómo funcionan y qué otras existen además de Bitcoin. Xataka. Recuperado 23 de abril de 2022, de https://www.xataka.com/basics/criptomonedas-que-como-funcionan-que-otras-existen-bitcoin 
+</p>
+<p>
+6 Llamas, J. (2021, 12 mayo). Activos digitales. Economipedia. Recuperado 23 de abril de 2022, de https://economipedia.com/definiciones/activos-digitales.html 
+</p>
+<p>
+7 Pastor, J. (2018, 23 septiembre). Qué es blockchain: la explicación definitiva para la tecnología más de moda. Xataka. Recuperado 23 de abril de 2022, de https://www.xataka.com/especiales/que-es-blockchain-la-explicacion-definitiva-para-la-tecnologia-mas-de-moda 
+</p>
+<p>
+8 Smart Contracts: ¿Qué son, cómo funcionan y qué aportan? (2022, 20 abril). Bit2Me Academy. Recuperado 23 de abril de 2022, de https://academy.bit2me.com/que-son-los-smart-contracts/ 
+</p>
+<p>
+9 Fernández, M. (2022, 10 marzo). Qué es un Exchange de criptomonedas - Letslaw. LetsLaw. Recuperado 23 de abril de 2022, de https://letslaw.es/exchange-de-criptomonedas/ 
+</p>
+<p>
+10 ¿Qué es un token? (2022, 23 marzo). Bit2Me Academy. Recuperado 23 de abril de 2022, de https://academy.bit2me.com/que-es-un-token/ 
+</p>
+<p>
+11 S., A. (2022, 24 abril). Reseña OpenSea. BitDegree.org Crypto Exchanges. Recuperado 23 de abril de 2022, de https://es.bitdegree.org/crypto/resena-opensea 
+</p>
+<p>
+12 Rarible: todo lo que necesita saber sobre el marketplace NFT. (2022, 24 febrero). BeInCrypto. Recuperado 24 de abril de 2022, de https://es.beincrypto.com/aprende/rarible-todo-necesita-saber/#:%7E:text=Ventajas%20de%20Rarible,-Rarible%20tiene%20una&text=Este%20marketplace%20es%20f%C3%A1cil%20de,que%20afecten%20a%20la%20plataforma. 
+</p>
+<p>
+13 colaboradores de Wikipedia. (2022, 15 marzo). Git. Wikipedia, la enciclopedia libre. Recuperado 26 de abril de 2022, de https://es.wikipedia.org/wiki/Git#Caracter%C3%ADsticas 
+</p>
+<p>
+14 Buenas prácticas para gestionar tu código. (2022, 6 abril). La Naturaleza del Software. Recuperado 26 de abril de 2022, de https://lnds.net/blog/lnds/2020/08/21/buenas-practicas-para-gestionar-tu-codigo/ 
+</p>
+<p>15 Peterson, Z. (2022, 17 febrero). Buenas prácticas para sistemas de control de versiones de Hardware. Altium. Recuperado 26 de abril de 2022, de https://resources.altium.com/es/p/best-practices-hardware-version-control-systems 
+</p>
+<p>16 INFORME DE REQUERIMIENTOS FUNCIONALES Y NO FUNCIONALES. (2020). https://www.enabel.be/sites/default/files/tenders/anexo_a_requerimientos_funcionales_y_no_funcionales.pdf 
+</p>
 
 ## Caracterización de usuarios: User Personas
   
@@ -482,6 +528,117 @@ En el inicio del sitio se mostrarán los NFTs distribuidos en toda la página y 
 ## Especificación
 
 Definición de requerimientos funcionales y no funcionales
+  <h4>Funcionales</h4>
+<p>Los requerimientos funcionales especifican servicios o funciones del sistema, una descripción del comportamiento del sistema en condiciones específicas y cómo se procesa la información es decir, las entradas y salidas.</p>
+<p>Luego del análisis y elicitación de información sobre el sitio a desarrollar, decidimos priorizar los requisitos que son, a nuestro entender, los correctos y adecuados para nuestro nivel de conocimientos. Pasamos por una etapa de priorización estableciendo un valor de prioridad para cada funcionalidad para poder luego planificar mejor el desarrollo y así, proporcionar un sitio que aporte gran valor al cliente y los usuarios que lo utilicen.
+Para la priorización, tuvimos en cuenta seis elementos:</p>
+<ul>
+  <li> Las necesidades del cliente y los usuarios. Que en nuestro caso el “cliente” conforma la letra del obligatorio y los usuarios serían por ejemplo las personas a las que les consultamos por información.</li>
+  <li>La importancia relativa de los requisitos para los usuarios. (Este punto lo validamos mayoritariamente nosotros ya que entraríamos dentro de los perfiles de usuario que especificamos)</li>
+  <li>El momento en el que las funcionalidades deben ser entregadas. (Es decir, la fecha de entrega).</li>
+  <li>Qué requisitos deben ser implementados como un grupo. (Como se verá a continuación que el perfil del usuario implementa varias funcionalidades del mismo)</li>
+</ul>
+<p>La técnica de priorización que utilizamos fue la de “Dentro o Fuera”. La dinámica se dió a partir de un listado de las funcionalidades que encontramos en los sitios (aplicando la ingeniería inversa) fuimos analizando cada uno, y decidimos si los mismos están a nuestro alcance de tiempo y esfuerzo.</p>
+
+<li>Crear Usuario
+Objetivo: Permitir a una persona registrarse en el mercado NFT desarrollado.
+  <br>
+ Pre-condiciones: El usuario debe ser mayor de 18 años. Billetera/wallet de NFTs (Metamask, entre otros).
+  <br>
+ Particularidades: El nombre de usuario es único para cada registro, se debe proveer un mail válido (verificable).</li>
+<br>
+<li>Eliminar Usuario
+ Objetivo: Permitir a un usuario eliminar su cuenta  en el sitio.
+  <br>
+ Pre-condiciones: -
+  <br>
+ Particularidades: El usuario se elimina, liberando ese nombre de usuario.  Los NFTs del usuario que no fueron vendidos, se eliminan y los vendidos permanecen.
+<br>
+</li>
+<li>Modificar Usuario:
+ Objetivo: Modificar billetera del usuario, nombre de usuario o email.
+  <br>
+ Pre-condiciones: -
+  <br>
+ Particularidades: Mismas particularidades para la creación de usuario.
+</li>
+<li>Subir NFT a la venta:
+ Objetivo: Publicar un NFT en el marketplace.
+  <br>
+ Pre-condiciones: Estar registrado en el mercado NFT desarrollado. 
+  <br>
+ Particularidades: El precio mínimo para vender un NFT es de $100 dólares.</li>
+<li>Eliminar NFT a la venta:
+  <br>
+ Objetivo: Quitar un NFT deseado del marketplace.
+  <br>
+ Pre-condiciones: Que el NFT esté publicado a la venta en el marketplace desarrollado.
+  <br>
+ Particularidades: -</li>
+<li>Modificar NFT a la venta:
+  <br>
+ Objetivo: Cambiar el precio de un NFT publicado.
+  <br>
+ Pre-condiciones: No se puede cambiar a un precio menor al  mínimo establecido ($100 dólares)
+  <br>
+ Particularidades: - </li>
+<li>Buscar y Filtrar NFT:
+  <br>
+ Objetivo: El usuario debe poder seleccionar filtros para su búsqueda y a su vez, buscar usuarios como obras.
+  <br>
+ Pre-condiciones: - 
+  <br>
+ Particularidades: -</li>
+<li>Comprar NFT:
+  <br>
+ Objetivo: Después que un usuario selecciona un NFT para comprar, se realiza la transacción para la obtención de ella.
+  <br>
+ Pre-condiciones: El monto del NFT no puede exceder del saldo de la billetera del usuario. Un NFT puede ser adquirido por un usuario a la vez, es decir que simultáneamente puede tener un único dueño.
+  <br>
+ Particularidades: -</li>
+<li>Acceder a Ayuda:
+  <br>
+ Objetivo: Ayudar al usuario a navegar por el sitio y que se informe sobre el tema.
+  <br>
+ Pre-condiciones: -
+  <br>
+ Particularidades: -</li>
+<li>Contactarnos:
+  <br>
+ Objetivo: Que el usuario pueda sacarse dudas que no están plasmadas en el requerimiento anterior.
+  <br>
+ Pre-condiciones: -
+  <br>
+ Particularidades: -</li>
+<br>
+
+<h4>No Funcionales</h4>
+<p>Los requerimientos no funcionales, por otra parte, forman parte de las restricciones a los servicios provistos por el sistema. Los mismos pueden estar vinculados a un requerimiento funcional, pero habitualmente se aplican transversalmente a todo el sistema.</p>
+<Eficiencia>
+El sistema debe ser capaz de procesar N transacciones por segundo.
+Toda funcionalidad del sistema y transacción de negocio debe responder al usuario en menos de 5 segundos.
+El sistema debe ser capaz de operar adecuadamente con hasta 100.000 usuarios con sesiones concurrentes.
+Los datos modificados en la base de datos deben ser actualizados para todos los usuarios que acceden en menos de 2 segundos.</li>
+  <li>Seguridad lógica y de datos
+  Los permisos de acceso al sistema podrán ser cambiados solamente por el administrador de acceso a datos.
+  El nuevo sistema debe desarrollarse aplicando patrones y recomendaciones de programación que incrementen la seguridad de datos.
+  Todos los sistemas deben respaldarse cada 24 horas. Los respaldos deben ser almacenados en una localidad segura ubicada en un edificio distinto al que reside el sistema.
+  Todas las comunicaciones externas entre servidores de datos, aplicación y cliente del sistema deben estar encriptadas utilizando el algoritmo RSA.
+  Si se identifican ataques de seguridad o brecha del sistema, el mismo no continuará operando hasta ser desbloqueado por un administrador de seguridad.</li>
+  <li>Usabilidad
+  El tiempo de aprendizaje del sistema por un usuario deberá ser menor a 1 hora.
+  La tasa de errores cometidos por el usuario deberá ser menor del 1% de las transacciones totales ejecutadas en el sistema.
+  El sistema debe contar con manuales de usuario estructurados adecuadamente.
+  El sistema debe proporcionar mensajes de error que sean informativos y orientados al usuario final.
+  El sistema debe contar con un módulo de ayuda en línea.
+  La aplicación web debe poseer un diseño “Responsive” a fin de garantizar la adecuada visualización en múltiples computadores personales, dispositivos tablets y  teléfonos inteligentes.
+  El sistema debe poseer interfaces gráficas bien formadas.</li>
+  <li>Dependabilidad
+  El sistema debe tener una disponibilidad del 99,99% de las veces en que un usuario intente acceder.
+  El tiempo para iniciar o reiniciar el sistema no podrá ser mayor a 5 minutos.
+  La tasa de tiempos de falla del sistema no podrá ser mayor al 0,5% del tiempo de operación total.
+  El promedio de duración de fallas no podrá ser mayor a 15 minutos.
+  La probabilidad de falla del Sistema no podrá ser mayor a 0,05.</li>
 
 User Stories / Use Cases detallados
 
