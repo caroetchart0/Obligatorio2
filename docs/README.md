@@ -590,6 +590,7 @@ Objetivo: Permitir a una persona registrarse en el mercado NFT desarrollado.
  Particularidades: El usuario se elimina, liberando ese nombre de usuario.  Los NFTs del usuario que no fueron vendidos, se eliminan y los vendidos permanecen.
 <br>
 </li>
+<br>
 <li>Modificar Usuario:
  Objetivo: Modificar billetera del usuario, nombre de usuario o email.
   <br>
@@ -597,12 +598,14 @@ Objetivo: Permitir a una persona registrarse en el mercado NFT desarrollado.
   <br>
  Particularidades: Mismas particularidades para la creación de usuario.
 </li>
+<br>
 <li>Subir NFT a la venta:
  Objetivo: Publicar un NFT en el marketplace.
   <br>
  Pre-condiciones: Estar registrado en el mercado NFT desarrollado. 
   <br>
  Particularidades: El precio mínimo para vender un NFT es de $100 dólares.</li>
+<br>
 <li>Eliminar NFT a la venta:
   <br>
  Objetivo: Quitar un NFT deseado del marketplace.
@@ -610,6 +613,7 @@ Objetivo: Permitir a una persona registrarse en el mercado NFT desarrollado.
  Pre-condiciones: Que el NFT esté publicado a la venta en el marketplace desarrollado.
   <br>
  Particularidades: -</li>
+<br>
 <li>Modificar NFT a la venta:
   <br>
  Objetivo: Cambiar el precio de un NFT publicado.
@@ -617,6 +621,7 @@ Objetivo: Permitir a una persona registrarse en el mercado NFT desarrollado.
  Pre-condiciones: No se puede cambiar a un precio menor al  mínimo establecido ($100 dólares)
   <br>
  Particularidades: - </li>
+<br>
 <li>Buscar y Filtrar NFT:
   <br>
  Objetivo: El usuario debe poder seleccionar filtros para su búsqueda y a su vez, buscar usuarios como obras.
@@ -624,6 +629,7 @@ Objetivo: Permitir a una persona registrarse en el mercado NFT desarrollado.
  Pre-condiciones: - 
   <br>
  Particularidades: -</li>
+<br>
 <li>Comprar NFT:
   <br>
  Objetivo: Después que un usuario selecciona un NFT para comprar, se realiza la transacción para la obtención de ella.
@@ -631,6 +637,7 @@ Objetivo: Permitir a una persona registrarse en el mercado NFT desarrollado.
  Pre-condiciones: El monto del NFT no puede exceder del saldo de la billetera del usuario. Un NFT puede ser adquirido por un usuario a la vez, es decir que simultáneamente puede tener un único dueño.
   <br>
  Particularidades: -</li>
+<br>
 <li>Acceder a Ayuda:
   <br>
  Objetivo: Ayudar al usuario a navegar por el sitio y que se informe sobre el tema.
@@ -638,6 +645,7 @@ Objetivo: Permitir a una persona registrarse en el mercado NFT desarrollado.
  Pre-condiciones: -
   <br>
  Particularidades: -</li>
+<br>
 <li>Contactarnos:
   <br>
  Objetivo: Que el usuario pueda sacarse dudas que no están plasmadas en el requerimiento anterior.
