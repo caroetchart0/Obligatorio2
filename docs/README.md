@@ -575,6 +575,9 @@ Para la priorización, tuvimos en cuenta seis elementos:</p>
 </ul>
 <p>La técnica de priorización que utilizamos fue la de “Dentro o Fuera”. La dinámica se dió a partir de un listado de las funcionalidades que encontramos en los sitios (aplicando la ingeniería inversa) fuimos analizando cada uno, y decidimos si los mismos están a nuestro alcance de tiempo y esfuerzo.</p>
 
+## User Stories / Use Cases detallados
+Detallaremos en formato de Use Cases (o casos de uso de las funcionalidades definidas en los requerimientos funcionales)
+<br>
 <li>Crear Usuario
 Objetivo: Permitir a una persona registrarse en el mercado NFT desarrollado.
   <br>
@@ -683,7 +686,6 @@ Los datos modificados en la base de datos deben ser actualizados para todos los 
   El promedio de duración de fallas no podrá ser mayor a 15 minutos.
   La probabilidad de falla del Sistema no podrá ser mayor a 0,05.</li>
 
-User Stories / Use Cases detallados
 
 ## Bocetos de IU
 Página Principal
