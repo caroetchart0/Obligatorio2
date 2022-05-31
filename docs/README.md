@@ -78,7 +78,7 @@ Closes #45
   - Capacidad de descargar o clonar cada revisión. La capacidad de clonar una revisión previa de un proyecto como una versión nueva es clave para el control de versiones.
   Los sistemas de control de versiones pueden hacer seguimiento a todos estos datos y revisiones en un servidor local, o en la nube con un servidor gestionado. Esto le brinda acceso a versiones anteriores de un proyecto, ya sea para clonar o regresar a un proyecto en un estado previo, o simplemente para descargar los datos de un proyecto anterior para otros propósitos.
 
-Uso de ramas separadas de 'main'
+### Uso de ramas separadas de 'main'
   En sí, no manejamos el documento de investigación en git, utilizamos la plataforma de google docs con la plantilla dada y a partir de allí fuimos desarrollando cada punto y en una fecha designada, se plasmaba la nueva información en el repositorio. Asignamos a Martín y Carolina para esta tarea. En el repositorio de git, en un inicio quisimos separar las ramas de acuerdo a los puntos que necesitábamos abordar, pero al ver que la mayoría de la información ya estaba desarrollada, decidimos únicamente utilizar una rama separada al main para ir agregando la información una vez que todos estuviéramos de acuerdo con lo que estaba en el documento de google docs.
 
 ### Resumen de commits y evolución del proyecto
@@ -457,6 +457,41 @@ En la barra de navegación hay un buscador, un menú con las opciones Explore (e
     </tr>
 </table>
 
+## Entrevista
+
+  <li>¿Qué funcionalidades son básicas para el desarrollo de un mercado web de NFT?</li>
+La posibilidad de poder vender y comprar NFT´s,  autentificar quienes son sus dueños actuales y el valor que tiene en el mercado.
+Es necesario tener una cuenta dentro de la página web porque es lo que te permite publicar y comprar NFT´s.
+No necesariamente se tiene que abonar el pago del NFT con cripto-monedas, de hecho en OpenSea (el marketplace más grande de NFT´s que existe actualmente) tiene la opción de abonar en dólares.
+
+  
+  <li>¿Existen restricciones legales en torno a las NFT?</li>
+En Uruguay no existen restricciones legales respecto a NFT´s ni a cripto en general, es como un vacío legal de por medio. Hay un proyecto de ley pero todavía no está implementado, por lo que por ahora es un vacío legal.
+
+  
+  <li>¿Qué perspectivas futuras tienen los NFT en su opinión?</li>
+Yo creo que los NFT´s, a futuro, van a representar un montón de cosas porque no simplemente se limitan a archivos sino que pueden generarse derechos de propiedad, derechos de uso o incluso su fruto de actividades en forma de NFT´s. Por ejemplo, existe un proyecto para hacer real-estate NFT, es como comprar y vender los derechos de propiedad como NFT. O tokenizar industrias, por ejemplo hacer una producción de vinos de un viñedo y poder vender los frutos de esa producción como NFT.
+
+  
+  <li>¿Por qué crees que los NFT suscitan tanto interés en el mercado?</li>
+Creo que las personas, en general, no tienen mucho conocimiento acerca de cripto o NFT entonces lo que hacen es escuchar que eso está on-demand y la gente va a comprar debido a eso. Es como una moda. Es más, hay artistas que lo que hacen es publicar dibujos generados por AI (por una computadora) que simplemente son dibujos 8 bits que no tienen ningún tipo de valor pero la gente los compra porque son artistas con prestigio, entonces es como una moda que se está dando; la gente compra simplemente por el hecho de comprar NFT´s.
+En conclusión, van a suscitar más que nada por el tema de los derechos de propiedad y etc., o porque, por ejemplo, hay empresas discográficas que están vendiendo masters originales de ciertos álbumes (por ejemplo de “The Beatles”) en forma de NFT’s por mucho dinero. Entonces, van a tener bastante futuro  pero actualmente la mayor cantidad de personas que ingresan al mercado de NFT’s es por escuchar que son una moda
+
+  
+  <li>¿Cómo es el proceso de compra de un NFT?</li>
+Por ejemplo, tomando en cuenta OpenSea, lo único que hay que hacer es abrir una cuenta (o crearse una en el caso de no tener) y ya se pueden realizar compras.
+Para vender, hay que abrir la cuenta, publicar el archivo (esta parte tiene un costo de $200 dólares aproximadamente) y por último, cuando se vaya a realizar la venta, el precio mínimo es de $200 dólares; a partir de ese monto se puede fijar el precio que cada persona quiera o tambien se puede poner en una subasta a partir de cierto precio, pero nada te asegura que se venda rápido.
+
+  
+  <li>¿Cómo se vinculan los NFT con la tecnología blockchain?</li>
+De hecho, sin blockchain no existirían NFT´s, porque los NFT´s se verifican a través de blockchain.
+Blockchain sería como un gran libro en donde están anotadas todas las transacciones, entonces si alguien quiere verificar la autenticidad de un NFT, se fija en el blockchain que ese archivo/NFT le corresponda a ese usuario. Todo está anotado en forma de código en el blockchain, por lo que sin blockchain no hay NFT’s.
+Hacer un blockchain no es imposible, se puede hacer un blockchain, pero es muy difícil que la gente lo empiece a hacer. Por lo general, ya existen blockchains creados con distintas finalidades y las personas nada más los implementan en su mercado de NFT’s, ya que es mucho más sencillo hacer esto que crear un blockchain de cero.
+
+  
+  <li>¿Cómo se determina el valor de un NFT?</li>
+El valor de un NFT depende del valor que el artista quiera darle o el valor que el público piense que va a valer el NFT. Por ejemplo: si el artista le dedicó cierto tiempo y esfuerzo a hacer una pintura y para él eso representa determinada cantidad de dinero, es el valor que el artista le va a dar. Por otro lado, cuando se someten a subastas el valor va a ser determinado por el público y lo que éste esté dispuesto a gastar.
+
 
 
 ## Referencias a fuentes de información
@@ -646,15 +681,61 @@ Bocetos de IU
 
 ## Validación y verificación
 
-Verificar la especificación
+###Validación de requisitos
+Durante la actividad de ingeniería de requisitos, es necesario revisar la calidad de los requisitos desarrollados. Se presentan los requisitos a los interesados (o en nuestro caso, entre nosotros) con el propósito de identificar diferencias entre los requisitos definidos y las necesidades reales de los supuestos “interesados”.
+Desempeñamos esta etapa de validación para asegurarnos que los requisitos describen con precisión las capacidades y propiedades del sistema, que satisfacen las necesidades de los interesados, son completos, factibles y verificables. También validar que los requisitos definidos son necesarios y en su conjunto cumplen los objetivos del trabajo, y finalmente proporcionan una buena base para proceder con las siguientes etapas de diseño y construcción.
+Como lo recomendado es que los autores no validen los requisitos, decidimos que realizar entrevistas a personas externas al equipo, y a su vez, que tengan conocimientos sobre el tema y otros no. 
+  
+###Validar la solución con personas no involucradas con el proyecto
+En cuanto a la validación, decidimos mostrar el prototipo a personas interesadas e interiorizadas en el tema. Al ser un proyecto pequeño, decidimos que los requisitos a validar son todos, a excepción de algunos, que en la entrevista no se abordaron por redundancia como fue el inicio de sesión. Los entrevistados fueron Camilo Rodriguez y Federico Midaglia, ambos entusiastas en el área de inversión en criptomonedas y NFT.
+A medida que navegamos en el prototipo, los entrevistados identificaron bien las funcionalidades del sitio y fueron agregando funcionalidades que les parecía que faltaban. Cabe aclarar que los entrevistados conocen varios marketplace de NFT´s. 
+Los entrevistados remarcaron lo siguiente (resumen):
+<li>Página Principal: En la parte del Footer, al igual que presentan otros marketplace, mostrar confiabilidad a través de “partners” o empresas de manejo de datos que sean confiables como por ejemplo Certix, Coinbase, TrustWallet, entre otros. A su vez, mencionan de agregar un video explicativo de cómo se maneja el sitio, que es una ayuda al usuario para introducirse a los mercados NFT que posee OpenSea.</li>
+<li>Registro: A los entrevistados no les pareció práctico que la parte del registro del usuario involucrara el ingreso de nombre y contraseña. Aconsejan que sea a través de una wallet que se ingrese el usuario sin necesidad de crear una cuenta. Una vez que se conecta la wallet al marketplace, se “genera el usuario”.</li>
+<li>Explorar: En esta funcionalidad, resaltaron la paleta de colores aplicada a los filtros, uno de los entrevistados menciona que el gris no resalta en el sitio. También mencionaron de agregar en esta funcionalidad una sección de los NFT más populares dentro de un rango determinado de tiempo y en una categoría en específico.</li>
+<li>Perfil: En cuanto al perfil del usuario, los entrevistados estuvieron de acuerdo con las funcionalidades que presentaban pero agregarían en el submenú una sección de NFTs “ocultos”, es decir que son creados por el mismo usuario pero no están a la venta.</li>
+<li>Categoría de NFTs: Agregar a la creación del NFT una categoría, es decir, qué tipo de archivo es el token.</li>
+<li>Ayuda: Si bien en el prototipo no se ven todas las FAQs que vamos a desarrollar, los entrevistados mencionan algunas de las preguntas que podemos abordar. Por ejemplo,  ¿Qué porcentaje de comisión se aplica?, ¿En qué casos?, ¿Es gratuita la creación de mis NFTs?, entre otras.</li>
 
-Validar la solución con personas no involucradas en el proyecto
+###Conclusiones:
+Al finalizar la entrevista y plasmar un resumen de lo que mencionaron, entendemos que en los requisitos que elaboramos faltan varias claves del funcionamiento del marketplace que no son intercambiables tan simplemente como puede ser el inicio de sesión con una billetera en vez de un usuario y contraseña. Lo que decidimos implementar para la próxima versión es la categoría de NFTs, NFTs ocultos para cada perfil, los “partners” en la página principal, los filtrados mencionados en Explorar y re-evaluaremos la parte de registro del usuario.
+
 
 ## Reflexión
+###Detalle del trabajo individual
+Martín Edelman
+<li>Investigación</li>
+<li>Repositorio Git</li>
+<li>Caracterización de Usuarios</li>
+<li>Reflexión</li>
+  
+Carolina Etchart
+<li>Comandos GIT ejecutados desde terminal y desde IDE</li>
+<li>Técnicas de versionado</li>
+<li>Investigación</li>
+<li>Definición de requerimientos</li>
+<li>Use Cases</li>
+<li>Bocetos de IU</li>
+<li>Reflexión</li>
+  
+Renata Flangini
+<li>Uso de ramas separadas de “main”</li>
+<li>Resumen de commits y evolución del proyecto</li>
+<li>Investigación</li>
+<li>Caracterización de Usuarios</li>
+<li>Definición de requerimientos</li>
+<li>Use Cases</li>
+<li>Bocetos de IU</li>
+<li>Validación y verificación</li>
+<li>Reflexión</li>
 
-Detalle del trabajo individual
+###Técnicas aplicadas y aprendizajes
+<li>Reflexión Martín:
+En tema de proyecto, me parecto el tiempo para entregar el obligatorio, me sentía muy cómodo con GIT pero por suerte me ayudarnos mis compañeras donde no me siento cómodo como el diseño de interfaz y los user stories. El grupo de trabajo era balanceado, cómodo y nos llevamos muy bien.</li>
 
-Técnicas aplicadas y aprendizajes
+<li>Reflexión Carolina:
+Me sentí muy cómoda con este grupo ya que sentí que todos pusimos de nuestra parte para que este trabajo nos salga de la mejor manera posible. Siento que fuimos capaces de apoyarnos en nuestros compañeros en los aspectos en los que cada uno de nosotros se sentía más flojo, pudiendo reforzar nuestro conocimiento a través de la ayuda de nuestros compañeros. 
+También me sentí muy tranquila con respecto a la fecha de entrega ya que nunca sentimos que nos faltaba tiempo, ni tampoco que algún aspecto de la entrega nos fuera imposible de realizar; supimos afrontar como grupo todas las dificultades que se nos presentaron.</li>
 
-
-
+<li>Reflexión Renata: 
+Personalmente, me gustó trabajar en esta primera etapa con Carolina y Martín. Siento que trabajamos bien como equipo y pudimos entendernos y balancear nuestras virtudes y defectos. Tuve muchos problemas para adaptarme a la herramienta de git, por lo cual me apoyé mucho en mis compañeros para poder aportar y me ayudaron mucho. Yo me sentía mucho más cómoda en la parte de especificación y por eso aporté lo mayor que pude en eso. Por otro lado, me gustó que en los momentos que me estresé o simplemente no se me ocurrían soluciones, ambos compañeros tomaron la “posta” o me ayudaron a seguir con el problema que tuviera. Me pareció bueno haber hecho instancias presenciales para el seguimiento del trabajo y luego hacer lo que quede de manera remota y asíncrona. Sé que puedo confiar en mis compañeros que van a hacer su parte asignada del trabajo de la mejor manera posible y creo que ellos también confían en mi trabajo. Si bien por ahí podríamos haber empezado antes con el obligatorio, no sentí en ningún momento que no íbamos a llegar o que nos iban a faltar muchas cosas. Así que en cuanto al tiempo, siento que lo manejamos bastante bien.</li>
