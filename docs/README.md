@@ -681,12 +681,12 @@ Bocetos de IU
 
 ## Validación y verificación
 
-###Validación de requisitos
+### Validación de requisitos
 Durante la actividad de ingeniería de requisitos, es necesario revisar la calidad de los requisitos desarrollados. Se presentan los requisitos a los interesados (o en nuestro caso, entre nosotros) con el propósito de identificar diferencias entre los requisitos definidos y las necesidades reales de los supuestos “interesados”.
 Desempeñamos esta etapa de validación para asegurarnos que los requisitos describen con precisión las capacidades y propiedades del sistema, que satisfacen las necesidades de los interesados, son completos, factibles y verificables. También validar que los requisitos definidos son necesarios y en su conjunto cumplen los objetivos del trabajo, y finalmente proporcionan una buena base para proceder con las siguientes etapas de diseño y construcción.
 Como lo recomendado es que los autores no validen los requisitos, decidimos que realizar entrevistas a personas externas al equipo, y a su vez, que tengan conocimientos sobre el tema y otros no. 
   
-###Validar la solución con personas no involucradas con el proyecto
+### Validar la solución con personas no involucradas con el proyecto
 En cuanto a la validación, decidimos mostrar el prototipo a personas interesadas e interiorizadas en el tema. Al ser un proyecto pequeño, decidimos que los requisitos a validar son todos, a excepción de algunos, que en la entrevista no se abordaron por redundancia como fue el inicio de sesión. Los entrevistados fueron Camilo Rodriguez y Federico Midaglia, ambos entusiastas en el área de inversión en criptomonedas y NFT.
 A medida que navegamos en el prototipo, los entrevistados identificaron bien las funcionalidades del sitio y fueron agregando funcionalidades que les parecía que faltaban. Cabe aclarar que los entrevistados conocen varios marketplace de NFT´s. 
 Los entrevistados remarcaron lo siguiente (resumen):
@@ -697,12 +697,12 @@ Los entrevistados remarcaron lo siguiente (resumen):
 <li>Categoría de NFTs: Agregar a la creación del NFT una categoría, es decir, qué tipo de archivo es el token.</li>
 <li>Ayuda: Si bien en el prototipo no se ven todas las FAQs que vamos a desarrollar, los entrevistados mencionan algunas de las preguntas que podemos abordar. Por ejemplo,  ¿Qué porcentaje de comisión se aplica?, ¿En qué casos?, ¿Es gratuita la creación de mis NFTs?, entre otras.</li>
 
-###Conclusiones:
+### Conclusiones:
 Al finalizar la entrevista y plasmar un resumen de lo que mencionaron, entendemos que en los requisitos que elaboramos faltan varias claves del funcionamiento del marketplace que no son intercambiables tan simplemente como puede ser el inicio de sesión con una billetera en vez de un usuario y contraseña. Lo que decidimos implementar para la próxima versión es la categoría de NFTs, NFTs ocultos para cada perfil, los “partners” en la página principal, los filtrados mencionados en Explorar y re-evaluaremos la parte de registro del usuario.
 
 
 ## Reflexión
-###Detalle del trabajo individual
+### Detalle del trabajo individual
 Martín Edelman
 <li>Investigación</li>
 <li>Repositorio Git</li>
@@ -729,7 +729,7 @@ Renata Flangini
 <li>Validación y verificación</li>
 <li>Reflexión</li>
 
-###Técnicas aplicadas y aprendizajes
+### Técnicas aplicadas y aprendizajes
 <li>Reflexión Martín:
 En tema de proyecto, me parecto el tiempo para entregar el obligatorio, me sentía muy cómodo con GIT pero por suerte me ayudarnos mis compañeras donde no me siento cómodo como el diseño de interfaz y los user stories. El grupo de trabajo era balanceado, cómodo y nos llevamos muy bien.</li>
 
