@@ -685,8 +685,33 @@ Los datos modificados en la base de datos deben ser actualizados para todos los 
 
 User Stories / Use Cases detallados
 
-Bocetos de IU
-
+## Bocetos de IU
+Página Principal
+![PaginaPrincipal](https://user-images.githubusercontent.com/102233707/171159876-2f1eb0f1-52e8-4712-9895-433ce37191ba.jpeg)
+<br>
+Inicio de Sesión
+![InicioDeSesion](https://user-images.githubusercontent.com/102233707/171160266-58f58363-4751-4308-94f2-ae64c6f66761.jpeg)
+<br>
+Registro de Usuario
+![RegistrarUsuario](https://user-images.githubusercontent.com/102233707/171160418-7a3fc244-b54e-47c0-8bd9-8ea9e3f0e594.jpeg)
+<br>
+Explorar NFT s
+![Explorar](https://user-images.githubusercontent.com/102233707/171160576-f2dc8028-5e36-42dc-b1d3-6c300b41dc2a.jpeg)
+<br>
+Crear NFT
+![crear](https://user-images.githubusercontent.com/102233707/171160702-3c37e458-c893-445c-b90e-a89b304a0453.jpeg)
+<br>
+Perfil del Usuario
+![Perfil](https://user-images.githubusercontent.com/102233707/171160816-d200b145-9198-4408-894a-c778682a1de8.jpeg)
+<br>
+Contacto
+![contacto](https://user-images.githubusercontent.com/102233707/171160920-dc0315f2-3e14-4301-811f-cb0244059853.jpeg)
+<br>
+Ayuda
+![ayuda](https://user-images.githubusercontent.com/102233707/171161106-a548facc-af1d-40bb-a9db-92542fd6049c.jpeg)
+<br>
+  
+  
 ## Validación y verificación
 
 ### Validación de requisitos
