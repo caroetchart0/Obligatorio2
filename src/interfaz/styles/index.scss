@@ -1,7 +1,7 @@
 @use "@material/theme" with (
-  $primary: #00bcd4,
-  $secondary: #f44336,
-  $background: #c7c7c7,
+  $primary: #f9d256,
+  $secondary: #e5acf0,
+  $background: #ababab,
 );
 @use '@material/button/mdc-button';
 @use '@material/button';
@@ -24,6 +24,7 @@
 @use "@material/select/styles";
 @use "@material/snackbar/mdc-snackbar";
 
+@include icon-button.core-styles;
 @include card.core-styles;
 @include textfield.core-styles;
 
@@ -60,7 +61,7 @@ section {
 }
 
 .mdc-tab {
-    background-color: #67daff;
+    background-color: #e5acf0;
 }
 
 .mdc-tab__content .mdc-tab__text-label {
