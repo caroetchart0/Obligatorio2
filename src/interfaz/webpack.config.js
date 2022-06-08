@@ -1,4 +1,4 @@
-const autoprefixer = require('autoprefixer');
+cdconst autoprefixer = require('autoprefixer');
 
 module.exports = {
   mode: 'development',
