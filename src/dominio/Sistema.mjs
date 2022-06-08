@@ -1,4 +1,4 @@
-class Sistema {
+export default class Sistema {
     constructor(){
         this.listaNFT = [];
         this.listaUsuarios = [];
@@ -15,28 +15,26 @@ class Sistema {
     darNFT(){
         return this.listaNFT;
     }
-
-}
-
-class NFT {
-    constructor(red,imagen,precio, comision, nombre, descripcion, regalia){
-        this.red = red;
-        this.imagen = imagen;
-        this.precio = precio;
-        this.comision = comision;
-        this.nombre = nombre;
-        this.descripcion = descripcion;
-        this.regalia = regalia;
+    existeUsuario(usuario){
+        var pertenece = false;
+        for(i=0; i<this.listaUsuarios.length; i++){
+            if(this.listaUsuarios[i].this.nombre.toUpperCase().equals(usuario.nombre.toUpperCase())){
+                 pertenece = true;
+            }
+        }
+        return pertenece;
     }
-}
-
-class Usuario {
-    constructor(nombre, email, contrasenia, mayorEdad){
-        this.nombre = nombre;
-        this.email = email;
-        this.contrasenia = contrasenia;
-        this.mayorEdad = mayorEdad;
-
+    existeNFT(NFT){
+        let pertenece = false;
+        for(i=0; i<this.listaNFT.length; i++){
+            if(this.listaNFT[i].this.nombre.toUpperCase().equals(NFT.toUpperCase())){
+                pertenece = true;
+            }
+        }
+        return pertenece;
     }
-    
+
 }
+
+
+
