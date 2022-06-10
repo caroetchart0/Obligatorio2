@@ -6,8 +6,11 @@ import { MDCSelect } from '@material/select';
 import {MDCSnackbar} from '@material/snackbar';
 import ListaPeliculas from '../../dominio/lista-peliculas.mjs';
 import Pelicula from '../../dominio/pelicula.mjs';
+import { cargarDatos } from './sistema.js';
+import Sistema from '../../dominio/sistema.mjs'; 
 
 const listaPeliculas = new ListaPeliculas();
+const sis = new Sistema();
 
 const topAppBarElement = document.querySelector('.mdc-top-app-bar');
 const topAppBar = new MDCTopAppBar(topAppBarElement);
@@ -26,6 +29,12 @@ tabBar.listen("MDCTabBar:activated", (activatedEvent) => {
 const textFieldTitle = new MDCTextField(document.getElementById('title'));
 const textFieldYear = new MDCTextField(document.getElementById('year'));
 const selectGenre = new MDCSelect(document.querySelector('.mdc-select'));
+const botonExplorar = new MDCRipple(document.getElementById('exploreTab'));
+
+botonExplorar.listen('click', () => {
+  //llamo a cargarNFT
+  cargarDatos()
+})
 
 const addButton = new MDCRipple(document.getElementById('addButton'));
 addButton.listen('click', () => {
