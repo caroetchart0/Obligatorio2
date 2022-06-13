@@ -1,26 +1,20 @@
 export default class NFT {
-    constructor(red,imagen,precio, comision, nombre, descripcion, regalia){
+    constructor(red,imagen,precio, nombre, descripcion, usuario){
         this.setRed(red);
         this.imagen = imagen;
         this.setPrecio(precio);
-        this.comision = comision;
         this.nombre = nombre;
         this.descripcion = descripcion;
-        this.regalia = regalia;
+        this.usuario = usuario;
     }
     toString(){
-        "Red: "+this.red+ " IMG: " +this.imagen+ " Precio: " +this.precio+ " Comisión: "+ this.comision+
-        " Nombre: "+ this.nombre+ " Descripción: " +this.descripcion+ " Regalía: " +this.regalia;
+        "Red: "+this.red+ " IMG: " +this.imagen+ " Precio: " +this.precio+" Nombre: "+ this.nombre+ " Descripción: " +this.descripcion+ " Regalía: " +this.regalia;
     }
     setRed(red){
         let redes = ["ETHEREUM", "POLYGON", "SOLANA", "FLOW", "TEZOS"];
         let esta = false;
         let r = red.toUpperCase();
-        for(i=0; i<redes.length && !esta; i++){
-            if(redes[i].equalsIgnoreCase(r)){
-                esta = true;
-            }
-        }
+        esta = redes.includes(r)
         if(!esta){
             throw new Error('Error, las redes pueden ser Ethereum, Polygon, Solana, Flow, Texos');
         }else{

@@ -33,6 +33,39 @@
   background-color: #e5acf0;
 }
 
+.mdc-top-app-bar__title{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mdc-tab__text-label{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.my-card-content {
+  padding: 16px;
+}
+
+.mdc-card{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+margin: auto;
+}
+
+.element-card {
+  width: 20em;
+  margin: 16px;
+}
+
+.element-card > .mdc-card__media {
+  height: 1em;
+}
+
 body {
   background: #A770EF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */

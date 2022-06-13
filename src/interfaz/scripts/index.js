@@ -6,50 +6,30 @@ import { MDCSelect } from '@material/select';
 import {MDCSnackbar} from '@material/snackbar';
 import ListaPeliculas from '../../dominio/lista-peliculas.mjs';
 import Pelicula from '../../dominio/pelicula.mjs';
-import { cargarDatos } from './sistema.js';
+import { cargarDatosEnHTML, cargarDatosSistema } from './auxiliares.js';
 import Sistema from '../../dominio/sistema.mjs'; 
+import Usuario from '../../dominio/Usuario.mjs';
+import NFT from '../../dominio/NFT.mjs';
 
 const listaPeliculas = new ListaPeliculas();
 const sis = new Sistema();
 
+
 const topAppBarElement = document.querySelector('.mdc-top-app-bar');
 const topAppBar = new MDCTopAppBar(topAppBarElement);
 
-const tabBar = new MDCTabBar(document.querySelector(".mdc-tab-bar"));
-tabBar.listen("MDCTabBar:activated", (activatedEvent) => {
-  document.querySelectorAll(".content").forEach((element, index) => {
-    if (index === activatedEvent.detail.index) {
-      element.classList.remove("sample-content--hidden");
-    } else {
-      element.classList.add("sample-content--hidden");
-    }
-  });
-});
 
-const textFieldTitle = new MDCTextField(document.getElementById('title'));
-const textFieldYear = new MDCTextField(document.getElementById('year'));
-const selectGenre = new MDCSelect(document.querySelector('.mdc-select'));
 const botonExplorar = new MDCRipple(document.getElementById('exploreTab'));
+const botonCrear = new MDCRipple(document.getElementById('createTab'));
+const botonCarrito = new MDCRipple(document.getElementById('cartTab'));
+const botonPerfil = new MDCRipple(document.getElementById('profileTab'));
+const botonAyuda = new MDCRipple(document.getElementById('helpTab'));
+const botonContacto = new MDCRipple(document.getElementById('supportTab'));
+const botonLogout = new MDCRipple(document.getElementById('logoutTab'));
+
 
 botonExplorar.listen('click', () => {
-  //llamo a cargarNFT
-  cargarDatos()
-})
-
-const addButton = new MDCRipple(document.getElementById('addButton'));
-addButton.listen('click', () => {
-  let title = textFieldTitle.value;
-  let year = textFieldYear.value;
-  let genre = selectGenre.value;
-  try {
-    let newPelicula = new Pelicula(title, genre, year);
-    listaPeliculas.agregar(newPelicula);
-  } catch (error) {
-    const snackbar = new MDCSnackbar(document.querySelector('.mdc-snackbar'));
-    snackbar.labelText = error.message;
-    snackbar.open();
-  } finally {
-    let peliculas = listaPeliculas.getPeliculas();
-    console.log(peliculas);
-  }
+  //llamo a cargarNFT en sistema y despues en HTML
+  cargarDatosSistema(sis);
+  cargarDatosEnHTML(sis);  
 })
