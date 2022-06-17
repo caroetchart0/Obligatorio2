@@ -1,7 +1,10 @@
+import Usuario from "./Usuario.mjs";
+
 export default class Sistema {
     constructor(){
         this.listaNFT = [];
         this.listaUsuarios = [];
+        this.usuarioActivo = undefined;
     }
     agregarNFT(NFT){
         this.listaNFT.push(NFT);
@@ -15,18 +18,9 @@ export default class Sistema {
     darNFT(){
         return this.listaNFT;
     }
-    existeUsuario(usuario){
-        var pertenece = false;
-        for(i=0; i<this.listaUsuarios.length; i++){
-            if(this.listaUsuarios[i].this.nombre.toUpperCase().equals(usuario.nombre.toUpperCase())){
-                 pertenece = true;
-            }
-        }
-        return pertenece;
-    }
     existeNFT(NFT){
         let pertenece = false;
-        for(i=0; i<this.listaNFT.length; i++){
+        for(let i=0; i<this.listaNFT.length; i++){
             if(this.listaNFT[i].this.nombre.toUpperCase().equals(NFT.toUpperCase())){
                 pertenece = true;
             }
