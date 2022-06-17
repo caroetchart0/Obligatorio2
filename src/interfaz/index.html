@@ -11,7 +11,8 @@
   <title>NFT ABSTRACT</title>
 </head>
 
-<body>
+
+   <div class="ocultar" id="main_content">
 
   <header class="mdc-top-app-bar">
     <div class="mdc-top-app-bar__row">
@@ -20,98 +21,135 @@
         <span class="mdc-top-app-bar__title">NFT ABSTRACT</span>
       </section>
     </div>
+    <div class="mdc-tab-bar " role="tablist">
+      <div class="mdc-tab-scroller">
+        <div class="mdc-tab-scroller__scroll-area">
+          <div class="mdc-tab-scroller__scroll-content">
   
+            <button id="exploreTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
+              <span class="mdc-tab__content">
+                <span class="mdc-tab__icon material-icons" aria-hidden="true">search</span>
+                <span class="mdc-tab__text-label">EXPLORAR</span>
+              </span>
+              <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
+              </span>
+              <span class="mdc-tab__ripple"></span>
+            </button>
   
-  <div class="mdc-tab-bar" role="tablist">
-    <div class="mdc-tab-scroller">
-      <div class="mdc-tab-scroller__scroll-area">
-        <div class="mdc-tab-scroller__scroll-content">
-
-          <button id="exploreTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="0">
-            <span class="mdc-tab__content">
-              <span class="mdc-tab__icon material-icons" aria-hidden="true">search</span>
-              <span class="mdc-tab__text-label">EXPLORAR</span>
-            </span>
-            <span class="mdc-tab-indicator mdc-tab-indicator--active">
-              <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
-            </span>
-            <span class="mdc-tab__ripple"></span>
-          </button>
-
-          <button id="createTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="1">
-            <span class="mdc-tab__content">
-              <span class="mdc-tab__icon material-icons" aria-hidden="true">add_circle</span>
-              <span class="mdc-tab__text-label">CREAR</span>
-            </span>
-            <span class="mdc-tab-indicator mdc-tab-indicator--active">
-              <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
-            </span>
-            <span class="mdc-tab__ripple"></span>
-          </button>
-
-          <button id="cartTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="1">
-            <span class="mdc-tab__content">
-              <span class="mdc-tab__icon material-icons" aria-hidden="true">shopping_cart</span>
-              <span class="mdc-tab__text-label">CARRITO</span>
-            </span>
-            <span class="mdc-tab-indicator mdc-tab-indicator--active">
-              <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
-            </span>
-            <span class="mdc-tab__ripple"></span>
-          </button>
-
-          <button id="profileTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="2">
-            <span class="mdc-tab__content">
-              <span class="mdc-tab__icon material-icons" aria-hidden="true">account_circle</span>
-              <span class="mdc-tab__text-label">PERFIL</span>
-            </span>
-            <span class="mdc-tab-indicator mdc-tab-indicator--active">
-              <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
-            </span>
-            <span class="mdc-tab__ripple"></span>
-          </button>
-
-          <button id="helpTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="3">
-            <span class="mdc-tab__content">
-              <span class="mdc-tab__icon material-icons" aria-hidden="true">help</span>
-              <span class="mdc-tab__text-label">AYUDA</span>
-            </span>
-            <span class="mdc-tab-indicator mdc-tab-indicator--active">
-              <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
-            </span>
-            <span class="mdc-tab__ripple"></span>
-          </button>
-
-          <button id="supportTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="4">
-            <span class="mdc-tab__content">
-              <span class="mdc-tab__icon material-icons" aria-hidden="true">contact_support</span>
-              <span class="mdc-tab__text-label">CONTACTO</span>
-            </span>
-            <span class="mdc-tab-indicator mdc-tab-indicator--active">
-              <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
-            </span>
-            <span class="mdc-tab__ripple"></span>
-          </button>
-
-          <button id="logoutTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="5">
-            <span class="mdc-tab__content">
-              <span class="mdc-tab__icon material-icons" aria-hidden="true">logout</span>
-              <span class="mdc-tab__text-label">CERRAR SESIÓN</span>
-            </span>
-            <span class="mdc-tab-indicator mdc-tab-indicator--active">
-              <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
-            </span>
-            <span class="mdc-tab__ripple"></span>
-          </button>
-
+            <button id="createTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="1">
+              <span class="mdc-tab__content">
+                <span class="mdc-tab__icon material-icons" aria-hidden="true">add_circle</span>
+                <span class="mdc-tab__text-label">CREAR</span>
+              </span>
+              <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
+              </span>
+              <span class="mdc-tab__ripple"></span>
+            </button>
+  
+            <button id="cartTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="1">
+              <span class="mdc-tab__content">
+                <span class="mdc-tab__icon material-icons" aria-hidden="true">shopping_cart</span>
+                <span class="mdc-tab__text-label">CARRITO</span>
+              </span>
+              <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
+              </span>
+              <span class="mdc-tab__ripple"></span>
+            </button>
+  
+            <button id="profileTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="2">
+              <span class="mdc-tab__content">
+                <span class="mdc-tab__icon material-icons" aria-hidden="true">account_circle</span>
+                <span class="mdc-tab__text-label">PERFIL</span>
+              </span>
+              <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
+              </span>
+              <span class="mdc-tab__ripple"></span>
+            </button>
+  
+            <button id="helpTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="3">
+              <span class="mdc-tab__content">
+                <span class="mdc-tab__icon material-icons" aria-hidden="true">help</span>
+                <span class="mdc-tab__text-label">AYUDA</span>
+              </span>
+              <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
+              </span>
+              <span class="mdc-tab__ripple"></span>
+            </button>
+  
+            <button id="supportTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="4">
+              <span class="mdc-tab__content">
+                <span class="mdc-tab__icon material-icons" aria-hidden="true">contact_support</span>
+                <span class="mdc-tab__text-label">CONTACTO</span>
+              </span>
+              <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
+              </span>
+              <span class="mdc-tab__ripple"></span>
+            </button>
+  
+            <button id="logoutTab" class="mdc-tab mdc-tab--active" role="tab" aria-selected="true" tabindex="5">
+              <span class="mdc-tab__content">
+                <span class="mdc-tab__icon material-icons" aria-hidden="true">logout</span>
+                <span class="mdc-tab__text-label">CERRAR SESIÓN</span>
+              </span>
+              <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                <span class="mdc-tab-indicator_content mdc-tab-indicator_content--underline"></span>
+              </span>
+              <span class="mdc-tab__ripple"></span>
+            </button>
+  
+          </div>
         </div>
       </div>
     </div>
   </div>
   </header>
-
-
   
+  <body>
+  <div class="mdc-card" id="login">
+    <h2>Iniciar sesión</h2>
+      <div class="mdc-card__media">
+        <label class="mdc-text-field mdc-text-field--outlined" id="email_field">
+          <span class="mdc-notched-outline">
+            <span class="mdc-notched-outline__leading"></span>
+            <span class="mdc-notched-outline__notch">
+              <span class="mdc-floating-label" id="my-label-id">Email</span>
+            </span>
+            <span class="mdc-notched-outline__trailing"></span>
+          </span>
+          <input type="email" class="mdc-text-field__input" aria-labelledby="my-label-id">
+        </label>
+        <label class="mdc-text-field mdc-text-field--outlined" id="password_field">
+          <span class="mdc-notched-outline">
+            <span class="mdc-notched-outline__leading"></span>
+            <span class="mdc-notched-outline__notch">
+              <span class="mdc-floating-label" id="my-label-id">Contraseña</span>
+            </span>
+            <span class="mdc-notched-outline__trailing"></span>
+          </span>
+          <input type="password" class="mdc-text-field__input" aria-labelledby="my-label-id">
+        </label>
+    </div>
+    <div class="mdc-card__actions" id="login_page">
+      <div class="mdc-card__action-buttons" style="margin: auto;">
+        <button class="mdc-button mdc-button--raised mdc-button--leading btnLogout" id="loginButton">
+          <span class="mdc-button__ripple"></span>
+          <i class="material-icons mdc-button__icon" aria-hidden="true"
+          >logout</i
+          >
+          <span class="mdc-button__label">Ingresar</span>
+      </button>
+      </div>
+    </div>
+  </div>
+    
+   <!--inicio explorar-->
+
   <div id="NFT"></div>
 </body>
 <script src="bundle.js" async></script>
