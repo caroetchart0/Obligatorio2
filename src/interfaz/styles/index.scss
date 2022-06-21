@@ -33,6 +33,11 @@
   background-color: #e5acf0;
 }
 
+html {
+  scroll-behavior: smooth;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .mdc-top-app-bar__title{
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -49,6 +54,11 @@
   margin: auto;
   width: 50%;
   padding: 10px;
+
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 .cards {
@@ -70,9 +80,13 @@ body {
   background: #A770EF;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
 }
 
 .ocultar{
   display:none;
+}
+
+#NFT{
+  display: flex;
+  align-items: center;
 }

@@ -6,6 +6,7 @@ export function cargarDatosEnHTML(sistema) {
     var contenedor = document.getElementById("NFT");
     contenedor.innerHTML = " ";
     sistema.darNFT().map((nft)=>{
+        console.log(nft.usuario)
         var div = document.createElement("div");
         div.innerHTML = `
         <div class="mdc-card element-card">
@@ -13,11 +14,14 @@ export function cargarDatosEnHTML(sistema) {
                 <div class="mdc-image-list__image-aspect-container">
                     <img class="mdc-image-list__image" src="${nft.imagen}">
                 </div>
-            <h3>${nft.nombre}</h3>
-        <h4>by: ${nft.usuario}</h4>
-        <h4> Red: ${nft.red}
-        <h4>ETH ${nft.precio}.00</ </h4>
-        <button value=${nft.nombre} class="mdc-button mdc-button--raised mdc-button--leading btnComprar">
+            <h2 style="color: white;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">${nft.nombre}</h2>
+        <h3>by: ${nft.usuario.nombre}</h3>
+        <h3> Red: ${nft.red}</h3>
+        <h3>ETH ${nft.precio}.00</h3>
+        <h3>${nft.descripcion}</ </h3>
+        <br/>
+        <button style="background-color: #e5acf0; color:black;" value=${nft.nombre} class="mdc-button mdc-button--raised mdc-button--leading btnComprar">
             <span class="mdc-button__ripple"></span>
             <i class="material-icons mdc-button__icon" aria-hidden="true"
             >favorite</i
@@ -36,6 +40,7 @@ export function cargarDatosSistema(sis) {
     //USUARIOS
     console.log(sis)
     var usu1 = new Usuario("Renata", "flangini@gmail.com", "1234", true);
+    var usu1 = new Usuario("Agustin", "admin", "admin", true);
     var usu2 = new Usuario("Carolina", "hola@gmail.com", "0000", true);
     var usu3 = new Usuario("Guido", "dogui@gmail.com", "1111", true);
 

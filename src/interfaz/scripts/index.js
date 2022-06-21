@@ -25,7 +25,6 @@ const password_field = new MDCTextField(document.querySelector('#password_field'
 const loginButton = new MDCRipple(document.getElementById('loginButton'));
 const botonExplorar = new MDCRipple(document.getElementById('exploreTab'));
 const botonCrear = new MDCRipple(document.getElementById('createTab'));
-const botonCarrito = new MDCRipple(document.getElementById('cartTab'));
 const botonPerfil = new MDCRipple(document.getElementById('profileTab'));
 const botonAyuda = new MDCRipple(document.getElementById('helpTab'));
 const botonContacto = new MDCRipple(document.getElementById('supportTab'));
@@ -37,16 +36,26 @@ const paginalogin = document.querySelector('#login');
 const main_content = document.getElementById('main_content');
 
 
+botonLogout.listen('click', ()=>{
+  console.log('click')
+  main_content.classList.add('ocultar');
+  document.getElementById("NFT").classList.add("ocultar")
+  paginalogin.classList.remove('ocultar');
+  sis.usuarioActivo = undefined;
+})
+
 loginButton.listen('click', ()=>{
-  
+  console.log('click')
   var email = email_field.value;
   var contra = password_field.value;
   let usuarios = sis.darUsuarios();
   let login = false;
+  console.log(email, contra)
   for(let i=0; i<usuarios.length;i++){
     if(usuarios[i].email == email && usuarios[i].contrasenia == contra){
       sis.usuarioActivo = usuarios[i];
       main_content.classList.remove('ocultar');
+      document.getElementById("NFT").classList.remove("ocultar")
       botonExplorar.emit('click')
       login = true;
     }
@@ -63,3 +72,4 @@ botonExplorar.listen('click', () => {
   paginalogin.classList.add('ocultar');
   cargarDatosEnHTML(sis);  
 })
+
