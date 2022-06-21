@@ -17,7 +17,7 @@ export default class Sistema {
     }
     darNFT(){
         return this.listaNFT;
-    }
+    }   
     existeNFT(NFT){
         let pertenece = false;
         for(let i=0; i<this.listaNFT.length; i++){
