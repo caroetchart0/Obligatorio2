@@ -236,7 +236,56 @@ Anatomía:
 
 ### Aplicar un sistema de diseño y principios de usabilidad
 
+Respecto a la usabilidad, nos enfocamos en que el usuario especificado pueda alcanzar con facilidad las funcionalidades de la aplicación.
+<br>
+<br>
+Principios de usabilidad de Jakob Nielsen: 
+<br>
+<br>
+https://profile.es/blog/los-10-principios-de-usabilidad-web-de-jakob-nielsen/ 
+<br>
+<br>
+https://es.semrush.com/blog/usabilidad-web-principios-jakob-nielsen/ 
+<br>
+<br>
+<ol>
+  <li>Visibilidad del estado del sistema: “El sistema debe siempre mantener informado al usuario de lo que está ocurriendo” Además ofrecerle al usuario una respuesta en el menor tiempo posible. Algunos ejemplos para cumplir este principio pueden ser barras de carga y descarga.</li>
+  <li>Relación entre el sistema y el mundo real: “El sitio web tiene que utilizar el lenguaje del usuario, con expresiones y palabras que le resulten familiares. Además la información debe aparecer en un orden lógico y natural.” Con esto, conseguimos que la interacción con el usuario sea natural y no sea conflictivo navegar por nuestro sitio.</li>
+  <li>Control y libertad del usuario: “En caso de elegir alguna opción del sitio web por error, el usuario agradecerá disponer de una “salida de emergencia” para abandonar el estado no deseado en que se halla. Debe poder deshacer o repetir una acción previamente realizada.”</li>
+  <li>Consistencia y estándares: “Es importante establecer convenciones lógicas y mantenerlas siempre. El usuario no tiene por qué saber que diferentes palabras, situaciones o acciones significan lo mismo.”</li>
+  <li>Prevención de errores: “Tenemos, en todo lo posible, que prevenir cualquier error que pueda cometer el usuario. Y dado el caso de que este cometa uno, tenemos que poner a su alcance todas las opciones posibles para poder corregirlo.”</li>
+  <li>Reconocimiento antes que recuerdo: “Debemos hacer visibles acciones y opciones para que el usuario no tenga que recordar información entre distintas secciones o partes del sitio web o aplicación.”</li>
+  <li>Flexibilidad y eficiencia de uso: “Los aceleradores o atajos de teclado, por ejemplo, pueden hacer más rápida la interacción para usuarios expertos, de tal forma que el sitio web o aplicación sea útil tanto para usuarios básicos como avanzados.” </li>
+  <li>Estética y diseño minimalista: “Las páginas no deben contener información innecesaria. Cada información extra compite con la información relevante y disminuye su visibilidad.”</li>
+   <li>Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores: “Los mensajes de error se deben entregar en un lenguaje claro y simple, indicando en forma precisa el problema y sugerir una solución constructiva al problema.”</li>
+   <li>Ayuda y documentación: “Aunque es mejor que el sitio web o aplicación pueda ser usado sin ayuda, puede ser necesario proveer cierto tipo de ayuda. En este caso, la ayuda debe ser fácil de localizar, especificar los pasos necesarios y no ser muy extensa.”</li>
+</ol>
+<br>
+<br>
 ### Cumplimiento de estándar de accesibilidad WCAG
+https://www.w3.org/WAI/standards-guidelines/wcag/glance/es 
+<br>
+<br>
+<ul type="circle">
+  <li>Perceptible: 
+    <ul type="circle">
+      <li> &nbsp; Proporcione alternativas textuales para contenido no textual</li>
+      <li> &nbsp; Proporcione subtítulos y otras alternativas para multimedia</li>
+      <li> &nbsp; Cree contenido que se pueda presentar de diferentes formas, incluyendo a las tecnologías de apoyo, sin perder información</li>
+      <li> &nbsp; Facilite que los usuarios puedan ver y oír el contenido</li>
+    </ul type="circle">
+  </li>
+  
+  <li>Comprensible:
+   <ul type="circle">
+      <li> &nbsp; Proporcione texto legible y comprensible.</li>
+      <li> &nbsp; Proporcione contenido que sea predecible en apariencia y operación</li>
+      <li> &nbsp; Ayude a los usuarios a evitar y corregir errores</li>
+    </ul type="circle">
+  </li>
+  <li>.......................................</li>
+</ul type="circle">
+
 
 ### Seguir especificación de estilo
 
