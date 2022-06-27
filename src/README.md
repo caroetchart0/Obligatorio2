@@ -232,7 +232,6 @@ Anatomía:
   <li>Supporting text: Supporting text includes text like an article summary or a restaurant description.</li>
   <li>Buttons: Cards can include buttons for actions.</li>
   <li>Icons: Cards can include icons for actions.</li>
-  <li></li>
 </ol>
 
 ### Aplicar un sistema de diseño y principios de usabilidad
