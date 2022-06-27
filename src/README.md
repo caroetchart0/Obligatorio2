@@ -80,15 +80,166 @@ Principios de los Tabs:
 El tipo de Tab que utilizamos en el proyecto es Fixed tabs. Este tipo de barra de navegación muestra todos los tabs en la misma pantalla, cada uno con igual espaciado.
 <br>
 <br>
-Anatomía del componente:
+
+###Anatomía del componente:
 
 
+-- FOTO ANATOMIA DEL COMPONENTE
 
-Aplicar un sistema de diseño y principios de usabilidad
+<ol><li>Contenedor</li>
+<li>Ícono activo</li>
+<li>Etiqueta de texto activa </li>
+<li>Active tab indicator</li>
+<li>Ícono inactivo</li>
+<li>Etiqueta de texto inactiva</li>
+<li>Tab ítem</li></ol>
+<br>
+<br>
+En nuestro caso, el ícono se presenta del lado derecho del texto.
+<br>
+<br>
+<b>Uso de Íconos:</b>
+<br>
+<br>
+Las etiquetas de texto deben describir claramente el contenido que tendrán. A su vez, su contenido tiene que tener coherencia con su etiqueta. Idealmente, el texto debe ser breve y presentarse en una sola línea, pero en el caso de requerir una segunda línea, se debe truncar el texto. Es muy importante que si no entra el texto en la barra de navegación con el mismo espacio que los demás títulos, no se debe cambiar el tamaño del texto para que entre, en ese caso es preferible que se usen dos líneas. También es importante mantener consistencia en la barra de navegación, a esto nos referimos a no mezclar texto con íconos, mantener uno, otro o ambos en todos los tabs. Para la combinación de texto con íconos, los íconos deben transmitir, al igual que el texto, el contenido de una manera sencilla y reconocible. Es mejor utilizar los íconos para textos simples que para contenido complejo.
+<br>
+<br>
+<b>Comportamiento del Tab:</b>
+<br>
+<br>
+Para indicar el cambio de un tab a otro, se aplica un cambio en el color y se subraya para indicar el tab activo.
 
-Cumplimiento de estándar de accesibilidad WCAG
+-- FOTO COMPORTAMIENTO DEL TAB
+En cuanto a la agrupación de los tabs, es recomendado que queden en una sola línea de manera horizontal en la parte superior del sitio. No es recomendado anidar barras de navegación. Tampoco es recomendado disponer los componentes de la barra de navegación uno debajo de otro como una lista. El posicionamiento de los tabs puede ser junto con un top app bar.
+<br>
+<br>
+Uso de Botones: https://material.io/components/buttons 
+<br>
+<br>
+Principios de los botones:
+<ul type="circle">
+  <li>Identificables: Debe estar claro que el botón indica una acción.  </li>
+  <li>Localizable: Los botones se deben diferenciar claramente de otros elementos y de otros botones. </li>
+  <li>Claros: La acción y estado del botón debe ser claro </li>
+</ul type="circle">
+<br>
+<br>
+Tipos de botones:
+<table>
+  <tr>
+    <td>Botón con texto: Utilizados para acciones con poco realce (baja importancia)</td>
+    <td>FOTO BUTTON1 </td>
+  </tr>
+  <tr>
+    <td>Botón con texto y contorno: Utilizados para acciones que tienen más importancia que el anterior (media importancia)</td>
+    <td>FOTO BUTTON2 </td>
+  </tr>
+  <tr>
+    <td>Botón con texto, contorno y fondo: Son los botones que se utilizan para acciones de más realce.</td>
+    <td>FOTO BUTTON3 </td>
+  </tr>
+</table>
+<br>
+<br>
+Anatomía de botones
+<br>
+<br>
 
-Seguir especificación de estilo
+--FOTO ANATOMIABOTONES1
+
+<ol>
+  <li> <b>Text button</b>
+    <ol>A. &nbsp; Text label </ol>
+    <ol>C. &nbsp; Icon (opcional)</ol>
+  </li>
+</ol>
+
+  
+<br>
+<br>
+  
+--FOTO ANATOMIABOTONES2
+<br>
+<br>
+
+&nbsp; <b> 2. &nbsp; Outlined button </b> </u>
+    <ol>A. &nbsp; Text label</ol>
+    <ol>B. &nbsp; Container</ol>
+    <ol>C. &nbsp; Icon (opcional)</ol>
+  
+<br>
+<br>
+  
+--FOTO ANATOMIABOTONES3
+<br>
+<br>
+
+&nbsp; <b> 3. &nbsp; Contained button </b> </u></u>
+    <ol>A. &nbsp; Text label</ol>
+    <ol>B. &nbsp; Container</ol>
+    <ol>C. &nbsp; Icon (opcional)</ol>
+<br>
+<br>
+
+En cuanto al texto que tiene que contener el botón, el mismo debe describir la acción que se ejecutará una vez presionado el botón. Se puede usar también un ícono. Material design dispone el texto de los botones en mayúsculas para distinguirlo del texto que lo rodea. Es recomendado que el botón tenga una sola línea de texto, lo que obliga a que el texto sea breve y sencillo de entender.
+<br>
+<br>
+Si en algún momento, es necesario disponer de dos o más botones para distintas acciones, lo ideal es aplicar los distintos tipos de botones para las acciones de distinto nivel.
+<br>
+<br>
+Recomendado:
+
+--FOTO HIDESHOW
+
+<br>
+<br>
+No recomendado:
+
+--FOTO CHASESAVE
+
+<br>
+<br>
+Tampoco es recomendado disponer un botón debajo de otro, es mejor que estén secuenciados de forma horizontal.
+<br>
+<br>
+Los botones, al igual que otros componentes, deben adaptarse al tamaño de la pantalla. Generalmente, los botones se disponen dentro de contenedores como las cards o los cuadros de diálogo. Los botones deben adaptar su tamaño con respecto a su contenedor.
+<br>
+<br>
+Cards o Tarjetas: https://material.io/components/cards 
+<br>
+<br>
+En este proyecto, utilizamos las tarjetas para disponer la información de los NFT
+<br>
+<br>
+Principios:
+<ul type="circle">
+  <li>Contenido: Se deben identificar como una unidad.</li>
+  <li>Independiente: No requiere de otros elementos o componentes para entender qué es.</li>
+  <li>Individuales: Cada tarjeta es independiente de otra, no pueden unirse ni dividirse en otras cartas.</li>
+</ul type="circle">
+<br>
+<br>
+Anatomía:
+
+-- FOTO ANATOMIA
+
+<ol>
+  <li>Container: Card containers hold all card elements, and their size is determined by the space those elements occupy. Card elevation is expressed by the container.</li>
+  <li>Thumbnail: Cards can include thumbnails to display an avatar, logo, or icon.</li>
+  <li>Header text: Header text can include things like the name of a photo album or article.</li>
+  <li>Subhead: Subhead text can include text elements such as an article byline or a tagged location.</li>
+  <li>Media: Cards can include a variety of media, including photos, and graphics, such as weather icons. </li>
+  <li>Supporting text: Supporting text includes text like an article summary or a restaurant description.</li>
+  <li>Buttons: Cards can include buttons for actions.</li>
+  <li>Icons: Cards can include icons for actions.</li>
+  <li></li>
+</ol>
+
+### Aplicar un sistema de diseño y principios de usabilidad
+
+### Cumplimiento de estándar de accesibilidad WCAG
+
+### Seguir especificación de estilo
 
 ## Codificación
 
