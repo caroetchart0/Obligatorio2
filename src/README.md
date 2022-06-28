@@ -155,18 +155,13 @@ Recomendado:
 No recomendado:
 <img width="589" alt="Captura de Pantalla 2022-06-28 a la(s) 00 21 23" src="https://user-images.githubusercontent.com/102233707/176084974-9b64ad71-e0d2-4f7a-bd81-20a4468e053b.png">
 <br>
-<br>
 Tampoco es recomendado disponer un botón debajo de otro, es mejor que estén secuenciados de forma horizontal.
-<br>
 <br>
 Los botones, al igual que otros componentes, deben adaptarse al tamaño de la pantalla. Generalmente, los botones se disponen dentro de contenedores como las cards o los cuadros de diálogo. Los botones deben adaptar su tamaño con respecto a su contenedor.
 <br>
-<br>
 Cards o Tarjetas: https://material.io/components/cards 
 <br>
-<br>
 En este proyecto, utilizamos las tarjetas para disponer la información de los NFT
-<br>
 <br>
 Principios:
 <ul type="circle">
@@ -177,9 +172,8 @@ Principios:
 <br>
 <br>
 Anatomía:
-
--- FOTO ANATOMIA
-
+<img width="613" alt="Captura de Pantalla 2022-06-28 a la(s) 00 22 35" src="https://user-images.githubusercontent.com/102233707/176085107-f213fa6c-a89c-4e32-b18a-60dce4d1d67a.png">
+<br>
 <ol>
   <li>Container: Card containers hold all card elements, and their size is determined by the space those elements occupy. Card elevation is expressed by the container.</li>
   <li>Thumbnail: Cards can include thumbnails to display an avatar, logo, or icon.</li>
@@ -624,13 +618,15 @@ Pruebas exploratorias: Las pruebas exploratorias son una técnica que combina la
 
 ### Reportar issues (bugs, improvements, missing features) en GitHub 
 
--- FOTO REPORTARISSUES
+<img width="906" alt="Captura de Pantalla 2022-06-28 a la(s) 00 23 33" src="https://user-images.githubusercontent.com/102233707/176085200-6a9dc123-ce47-49f0-bca6-e165f8edfc1a.png">
+
+<img width="902" alt="Captura de Pantalla 2022-06-28 a la(s) 00 23 56" src="https://user-images.githubusercontent.com/102233707/176085223-124262cd-5ccf-4cd5-8a69-53eabeaf9b8a.png">
 
 ### Definir labels para tipos de issue y niveles de severidad
 
--- FOTO DEFINIRLABELS1
+<img width="309" alt="Captura de Pantalla 2022-06-28 a la(s) 00 24 22" src="https://user-images.githubusercontent.com/102233707/176085271-a514607f-9a80-4e4a-831f-6acf7e08e5be.png">
 
--- FOTO DEFINIRLABELS2
+<img width="293" alt="Captura de Pantalla 2022-06-28 a la(s) 00 24 40" src="https://user-images.githubusercontent.com/102233707/176085298-7f104617-b9f2-4bae-881e-9cb9d39a3f53.png">
 
 ## Reflexión
 
