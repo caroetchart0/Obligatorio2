@@ -108,15 +108,15 @@ Tipos de botones:
 <table>
   <tr>
     <td>Botón con texto: Utilizados para acciones con poco realce (baja importancia)</td>
-    <td>FOTO BUTTON1 </td>
+    <td> <img width="154" alt="Captura de Pantalla 2022-06-28 a la(s) 00 11 44" src="https://user-images.githubusercontent.com/102233707/176084004-10995055-49bc-4505-8775-951f424473aa.png"> </td>
   </tr>
   <tr>
     <td>Botón con texto y contorno: Utilizados para acciones que tienen más importancia que el anterior (media importancia)</td>
-    <td>FOTO BUTTON2 </td>
+    <td> <img width="168" alt="Captura de Pantalla 2022-06-28 a la(s) 00 12 21" src="https://user-images.githubusercontent.com/102233707/176084163-3a4deba5-34f6-4f96-9e7f-a3b70802c533.png"> </td>
   </tr>
   <tr>
     <td>Botón con texto, contorno y fondo: Son los botones que se utilizan para acciones de más realce.</td>
-    <td>FOTO BUTTON3 </td>
+    <td> <img width="158" alt="Captura de Pantalla 2022-06-28 a la(s) 00 13 45" src="https://user-images.githubusercontent.com/102233707/176084207-3b7fe8e9-ba1b-4137-9144-8a86790f7114.png"> </td>
   </tr>
 </table>
 <br>
