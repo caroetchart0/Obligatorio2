@@ -4,7 +4,7 @@
 |-----------
 | Fundamentos de Ingeniería de Software
 ID M4A - Docente: Gerardo Maturro
-Estudiantes: Carolina Etchart 238963, Renata Flangini 243189
+Estudiantes: Carolina Etchart 278963, Renata Flangini 243189
 
 
 
