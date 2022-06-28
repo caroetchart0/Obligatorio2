@@ -45,7 +45,6 @@ En los div que corresponden a las distintas secciones de la barra de navegación
 <br>
 <br>
 Luego, en el scss especificamos qué necesitan esos componentes de la clase ocultar:<br>
-<br>
 .ocultar{<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; display:none;<br>
 } <br>
