@@ -262,7 +262,9 @@ https://es.semrush.com/blog/usabilidad-web-principios-jakob-nielsen/
 </ol>
 <br>
 <br>
+
 ### Cumplimiento de estándar de accesibilidad WCAG
+<br>
 https://www.w3.org/WAI/standards-guidelines/wcag/glance/es 
 <br>
 <br>
