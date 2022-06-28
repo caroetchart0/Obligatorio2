@@ -596,32 +596,110 @@ Usuario <br>
   </tr>
 </table>
 <br>
+<br>
+NFT <br>
+<table>
+  <tr>
+    <td> <b> Entrada/ Variable </b> </td>
+    <td> <b> Clases Válidas </b> </td>
+    <td> <b> Clases no válidas </b> </td>  </tr>
+  <tr>
+    <td> red </td>
+    <td> "ETHEREUM", <br>
+      "POLYGON", <br>
+      "SOLANA",  <br> 
+      "FLOW",  <br> 
+      "TEZOS"  <br> 
+    </td>
+    <td> distintas a las válidas </td>
+  </tr>
+  <tr>
+    <td> imágen </td>
+    <td> extensión .jpg </td>
+    <td> cualquier otra extensión </td>
+  </tr>
+    <tr>
+    <td> precio </td>
+    <td> mayor a 0 </td>
+    <td> menor a 0 </td>
+  </tr>
+  </tr>
+    <tr>
+    <td> nombre </td>
+    <td> mínimo 3 caracteres </td>
+    <td> 2 o menos caracteres </td>
+  </tr>
+  </tr>
+  <tr>
+    <td> descripción </td>
+    <td> opcional </td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td> usuario </td>
+    <td> existente </td>
+    <td> no existente </td>
+  </tr>
+</table>
+<br>
 
+### Detallar sesiones de prueba exploratoria
 
-
-Detallar sesiones de prueba exploratoria
-
-
-
-
-
+Pruebas exploratorias: Las pruebas exploratorias son una técnica que combina la experiencia de los testers con un enfoque estructurado para hacer pruebas, en situaciones donde faltan especificaciones o son inadecuadas, y donde existe una gran presión de tiempo. En este enfoque, los evaluadores pueden interactuar con la aplicación de la forma que deseen utilizar la información que proporciona la aplicación para reaccionar, cambiar de rumbo y, en general, explorar las funcionalidades de la aplicación sin restricciones. Los casos de prueba, los resultados de las pruebas, y la documentación general de las pruebas se generan a medida que se realizan las pruebas en lugar de documentarse con anticipación en un plan de pruebas.
+<br>
 
 ## Reporte de issues
 
-Reportar issues (bugs, improvements, missing features) en GitHub 
+### Reportar issues (bugs, improvements, missing features) en GitHub 
 
-Aplicar buenas prácticas de reporte de issues
+-- FOTO REPORTARISSUES
 
-Definir labels para tipos de issue y niveles de severidad
+### Definir labels para tipos de issue y niveles de severidad
 
-Dejar issues abiertos para correcciones o mejoras futuras
+-- FOTO DEFINIRLABELS1
 
-Sumarizar número de issues reportados por tipo
-
-Realizar una evaluación global de la calidad
+-- FOTO DEFINIRLABELS2
 
 ## Reflexión
 
-Detalle del trabajo individual
+### Detalle del trabajo individual
 
-Técnicas aplicadas y aprendizajes
+<table>
+  <tr>
+    <td> <b> Construcción </b> </td>
+    <td> <b> Renata </b> </td>
+  <tr>
+    <td> Interfaz de usuario </td>
+    <td> Renata - Carolina </td>
+  </tr>
+  <tr>
+    <td> Codificación </td>
+    <td> Renata </td>
+  </tr>
+    <tr>
+    <td> Test Unitario </td>
+    <td> Carolina </td>
+  </tr>
+  </tr>
+    <tr>
+    <td> Test del Sistema </td>
+    <td> Carolina </td>
+  </tr>
+  </tr>
+  <tr>
+    <td> Reporte de Issues </td>
+    <td> Renata - Carolina </td>
+  </tr>
+  <tr>
+    <td> Reflexión </td>
+    <td> Renata - Carolina </td>
+  </tr>
+</table>
+
+### Técnicas aplicadas y aprendizajes
+
+Para el trabajo en equipo, lo que hicimos fue dividir el trabajo en partes y asignar a cada una partes. Teniendo en cuenta nuestros gustos decidimos que la parte de documentación sería hecha por Renata, y la parte del manejo del repositorio sería hecha por Carolina. <br>
+Aprendimos como equipo que podemos complementarnos a la hora de ejecutar el trabajo y sabemos que podemos trabajar de manera asíncrona ya que ambas cumpliremos con lo que nos asignamos. <br>
+Tuvimos problemas de tiempo para la ejecución de la aplicación ya que tuvimos problemas con el compañero del primer obligatorio, pero nos aseguramos que ambas aportamos al obligatorio. <br>
+En cuanto a la programación del obligatorio, tuvimos una gran ayuda en términos de la codificación, que fue realizada por Renata y Carolina una vez que se hacía un commit, hacía pull de la solución y probaba lo realizado. <br>
+
