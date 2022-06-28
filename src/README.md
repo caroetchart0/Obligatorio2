@@ -63,6 +63,7 @@ Por último, para aplicar y quitar la clase ocultar, a cada componente que obtuv
 <br>
 
 ### Implementación: Material Design Web Components
+
 Uso de los Tabs: https://material.io/components/tabs#usage 
 <br>
 Utilizamos los Tabs para la barra de navegación. Estas permiten organizar el contenido relacionado en un mismo nivel. Separamos cada tab respecto a su contenido y nos enfocamos en no repetir el contenido de un tab en otro. Además de tener título, agregamos íconos a los tabs.
@@ -237,7 +238,9 @@ https://es.semrush.com/blog/usabilidad-web-principios-jakob-nielsen/
    <li>Ayuda y documentación: “Aunque es mejor que el sitio web o aplicación pueda ser usado sin ayuda, puede ser necesario proveer cierto tipo de ayuda. En este caso, la ayuda debe ser fácil de localizar, especificar los pasos necesarios y no ser muy extensa.”</li>
 </ol>
 <br>
+
 ### Cumplimiento de estándar de accesibilidad WCAG
+
 <br>
 https://www.w3.org/WAI/standards-guidelines/wcag/glance/es 
 <br>
@@ -275,7 +278,9 @@ https://www.w3.org/WAI/standards-guidelines/wcag/glance/es
   </li>
 </ul type="circle">
 <br>
+
 ### Seguir especificación de estilo
+
 https://google.github.io/styleguide/jsguide.html 
 <br>
 <br>
@@ -467,8 +472,11 @@ Usar espacios <br>
 Quotation <br>
 &nbsp;  &nbsp; &nbsp;  &nbsp;  Usar ‘ ’ en vez de “ ”No usar quotation marks para URLs <br>
 <br>
+
 ## Codificación
+
 ### Análisis estático de código: mostrar reducción de problemas
+
 <br>
 https://eslint.org/docs/ 
 <br>
