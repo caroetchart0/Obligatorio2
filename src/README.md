@@ -1,5 +1,6 @@
 # Informe académico entrega 2
-Fecha de entrega: 29-nov-2021
+Fecha de entrega: 27/06/2022
+Usuario y contraseña: admin  admin
 
 ## Construcción
 
