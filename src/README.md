@@ -354,12 +354,9 @@ Line-wrapping: El ajuste de línea divide un fragmento de código en varias lín
 <br>
 <br>
  &nbsp; &nbsp; //preferible <br>
- &nbsp; &nbsp;  &nbsp; &nbsp; currentEstimate = <br>
- &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; calc(currentEstimate + x * currentEstimate) / <br>
- &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 2.0; <br>
+ &nbsp; &nbsp;  &nbsp; &nbsp; currentEstimate = calc(currentEstimate + x * currentEstimate) / 2.0; <br>
  &nbsp; &nbsp; //no recomendado <br>
- &nbsp; &nbsp; &nbsp; &nbsp; currentEstimate = calc(currentEstimate + x * <br>
- &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; currentEstimate) / 2.0;
+ &nbsp; &nbsp; &nbsp; &nbsp; currentEstimate = calc(currentEstimate + x * currentEstimate) / 2.0;
 <br>
 <br>
 Aplicar indentación a las líneas de continuación de por lo menos +4 espacios.
@@ -426,7 +423,7 @@ Mantenga estrictamente separadas la estructura (markup), la presentación (styli
  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; <  h1 >  My first CSS-only redesign  < /  h1  > <br>
  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; <  p  > I’ve read about this on a few sites but today I’m actually  doing it: separating concerns and avoiding anything in the HTML of  my website that is presentational. <br>
  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; <  p  > It’s awesome! <br>
- &nbsp;  &nbsp; &nbsp;  &nbsp; No uses “Entity references” <br>
+No uses “Entity references” <br>
  <br>
  &nbsp;  &nbsp;  No recomendado <br>
  &nbsp;  &nbsp;  &nbsp;  &nbsp; The currency symbol for the Euro is &ldquo;&eur;&rdquo;. <br>
@@ -473,20 +470,20 @@ Utilice nombres de clase que sean lo más cortos posible pero tan largos como se
 &nbsp;  &nbsp;  Recomendado <br>
 &nbsp;  &nbsp; &nbsp;  &nbsp; color: #ebc; <br>
 <br> 
-&nbsp;  &nbsp; Usar 3 digitos <br> 
-&nbsp;  &nbsp; Evitar usar !important <br> 
-&nbsp;  &nbsp; Estas declaraciones rompen la cascade de CSS y dificultan el razonamiento y la composición de estilos. <br> 
-&nbsp;  &nbsp; Poner declaraciones en orden alfabetico <br> 
-&nbsp;  &nbsp; background: fuchsia; <br> 
-&nbsp;  &nbsp; border: 1px solid; <br> 
-&nbsp;  &nbsp; -moz-border-radius: 4px; <br> 
-&nbsp;  &nbsp; -webkit-border-radius: 4px; <br> 
-&nbsp;  &nbsp; border-radius: 4px; <br> 
-&nbsp;  &nbsp; color: black;text-align: center; <br> 
-&nbsp;  &nbsp; text-indent: 2em; <br> 
-&nbsp;  &nbsp; Misma indentación <br> 
+Usar 3 digitos <br> 
+Evitar usar !important <br> 
+Estas declaraciones rompen la cascade de CSS y dificultan el razonamiento y la composición de estilos. <br> 
+Poner declaraciones en orden alfabetico <br> 
+background: fuchsia; <br> 
+ border: 1px solid; <br> 
+-moz-border-radius: 4px; <br> 
+-webkit-border-radius: 4px; <br> 
+border-radius: 4px; <br> 
+color: black;text-align: center; <br> 
+text-indent: 2em; <br> 
+Misma indentación <br> 
 <br>
-&nbsp;  &nbsp; Usar espacios <br> 
+Usar espacios <br> 
 &nbsp;  &nbsp; &nbsp;  &nbsp;  No recomendado <br>
 &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; h3 {  <br>
 &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; font-weight:bold; <br>
@@ -496,7 +493,7 @@ Utilice nombres de clase que sean lo más cortos posible pero tan largos como se
 &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; font-weight: bold; <br>
 &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; } <br>
 <br>
-&nbsp;  &nbsp; Quotation <br>
+Quotation <br>
 &nbsp;  &nbsp; &nbsp;  &nbsp;  Usar ‘ ’ en vez de “ ”No usar quotation marks para URLs <br>
 <br>
 
