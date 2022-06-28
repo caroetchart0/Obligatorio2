@@ -33,16 +33,11 @@ Respecto a Material Design, la plantilla ya tenía componentes de material como 
 <br>
 1- Lucas, J. (2020, 1 junio). Qué es NodeJS y para qué sirve. OpenWebinars.net. Recuperado 26 de junio de 2022, de https://openwebinars.net/blog/que-es-nodejs/ 
 <br>
-<br>
-
 ## Interfaz de usuario
-
 ### Interfaz de usuario web / mobile (responsive)
 Si bien en la especificación desarrollamos una interfaz de usuario bastante compleja, con la plantilla que se nos presentó, se hizo complejo cumplir con el diseño de la especificación. Nuestra interfaz consiste en un banner con el título del mercado acompañado por un ícono que también se encuentra como favicon (ícono en la pestaña). Debajo tiene una barra de navegación con las distintas pestañas de la especificación, si bien no se llegaron a desarrollar todas. Cuando se abre por primera vez la página aparece un login y un botón para iniciar sesión. Luego aparece predeterminadamente la ventana de explorar con las distintas cartas de NFTs que están a la venta.
-
 ### Página única con navegación entre secciones
 Para poder implementar el proyecto con un único archivo .html, agregamos una clase en scss que permitiera ocultar una sección dado un evento, en este caso, el click de cada componente de la barra de navegación.
-<br>
 <br>
 En los div que corresponden a las distintas secciones de la barra de navegación se les agregó la clase ocultar (class="ocultar").
 
@@ -70,19 +65,14 @@ Por último, para aplicar y quitar la clase ocultar, a cada componente que obtuv
 ### Implementación: Material Design Web Components
 Uso de los Tabs: https://material.io/components/tabs#usage 
 <br>
-<br>
 Utilizamos los Tabs para la barra de navegación. Estas permiten organizar el contenido relacionado en un mismo nivel. Separamos cada tab respecto a su contenido y nos enfocamos en no repetir el contenido de un tab en otro. Además de tener título, agregamos íconos a los tabs.
-<br>
 <br>
 Principios de los Tabs:
 <ul type="circle"> <li>Escalables: No hay una restricción de cantidad de tabs que se pueden agregar a una barra de navegación. </li>
 <li>Informativos: Los tabs organizan el contenido en diferentes categorías para ayudar al usuario a encontrar fácilmente la información </li></ul type="circle">
 El tipo de Tab que utilizamos en el proyecto es Fixed tabs. Este tipo de barra de navegación muestra todos los tabs en la misma pantalla, cada uno con igual espaciado.
 <br>
-<br>
-
 ### Anatomía del componente:
-
 
 -- FOTO ANATOMIA DEL COMPONENTE
 
@@ -94,18 +84,13 @@ El tipo de Tab que utilizamos en el proyecto es Fixed tabs. Este tipo de barra d
 <li>Etiqueta de texto inactiva</li>
 <li>Tab ítem</li></ol>
 <br>
-<br>
 En nuestro caso, el ícono se presenta del lado derecho del texto.
-<br>
 <br>
 <b>Uso de Íconos:</b>
 <br>
-<br>
 Las etiquetas de texto deben describir claramente el contenido que tendrán. A su vez, su contenido tiene que tener coherencia con su etiqueta. Idealmente, el texto debe ser breve y presentarse en una sola línea, pero en el caso de requerir una segunda línea, se debe truncar el texto. Es muy importante que si no entra el texto en la barra de navegación con el mismo espacio que los demás títulos, no se debe cambiar el tamaño del texto para que entre, en ese caso es preferible que se usen dos líneas. También es importante mantener consistencia en la barra de navegación, a esto nos referimos a no mezclar texto con íconos, mantener uno, otro o ambos en todos los tabs. Para la combinación de texto con íconos, los íconos deben transmitir, al igual que el texto, el contenido de una manera sencilla y reconocible. Es mejor utilizar los íconos para textos simples que para contenido complejo.
 <br>
-<br>
 <b>Comportamiento del Tab:</b>
-<br>
 <br>
 Para indicar el cambio de un tab a otro, se aplica un cambio en el color y se subraya para indicar el tab activo.
 
@@ -139,7 +124,6 @@ Tipos de botones:
     <td>FOTO BUTTON3 </td>
   </tr>
 </table>
-<br>
 <br>
 Anatomía de botones
 <br>
@@ -179,8 +163,6 @@ Anatomía de botones
     <ol>B. &nbsp; Container</ol>
     <ol>C. &nbsp; Icon (opcional)</ol>
 <br>
-<br>
-
 En cuanto al texto que tiene que contener el botón, el mismo debe describir la acción que se ejecutará una vez presionado el botón. Se puede usar también un ícono. Material design dispone el texto de los botones en mayúsculas para distinguirlo del texto que lo rodea. Es recomendado que el botón tenga una sola línea de texto, lo que obliga a que el texto sea breve y sencillo de entender.
 <br>
 <br>
@@ -233,20 +215,14 @@ Anatomía:
   <li>Buttons: Cards can include buttons for actions.</li>
   <li>Icons: Cards can include icons for actions.</li>
 </ol>
-
 ### Aplicar un sistema de diseño y principios de usabilidad
-
 Respecto a la usabilidad, nos enfocamos en que el usuario especificado pueda alcanzar con facilidad las funcionalidades de la aplicación.
-<br>
 <br>
 Principios de usabilidad de Jakob Nielsen: 
 <br>
-<br>
 https://profile.es/blog/los-10-principios-de-usabilidad-web-de-jakob-nielsen/ 
 <br>
-<br>
 https://es.semrush.com/blog/usabilidad-web-principios-jakob-nielsen/ 
-<br>
 <br>
 <ol>
   <li>Visibilidad del estado del sistema: “El sistema debe siempre mantener informado al usuario de lo que está ocurriendo” Además ofrecerle al usuario una respuesta en el menor tiempo posible. Algunos ejemplos para cumplir este principio pueden ser barras de carga y descarga.</li>
@@ -261,8 +237,6 @@ https://es.semrush.com/blog/usabilidad-web-principios-jakob-nielsen/
    <li>Ayuda y documentación: “Aunque es mejor que el sitio web o aplicación pueda ser usado sin ayuda, puede ser necesario proveer cierto tipo de ayuda. En este caso, la ayuda debe ser fácil de localizar, especificar los pasos necesarios y no ser muy extensa.”</li>
 </ol>
 <br>
-<br>
-
 ### Cumplimiento de estándar de accesibilidad WCAG
 <br>
 https://www.w3.org/WAI/standards-guidelines/wcag/glance/es 
@@ -301,10 +275,7 @@ https://www.w3.org/WAI/standards-guidelines/wcag/glance/es
   </li>
 </ul type="circle">
 <br>
-<br>
-
 ### Seguir especificación de estilo
-
 https://google.github.io/styleguide/jsguide.html 
 <br>
 <br>
@@ -496,26 +467,76 @@ Usar espacios <br>
 Quotation <br>
 &nbsp;  &nbsp; &nbsp;  &nbsp;  Usar ‘ ’ en vez de “ ”No usar quotation marks para URLs <br>
 <br>
-
 ## Codificación
-
-IDE Visual Studio Code: configuración común del equipo
-
-Estándares de codificación Google (HTML, CSS, JavaScript)
-
-Buenas prácticas de OOP: separación de lógica e interfaz
-
-Análisis estático de código: mostrar reducción de problemas
+### Análisis estático de código: mostrar reducción de problemas
+<br>
+https://eslint.org/docs/ 
+<br>
+El análisis de código estático consiste por un lado el análisis mediante la ejecución del programa (Dinámico) y por otro lado el análisis del modelo de especificación (Estático)<br>
+El análisis estático se utiliza para sistemas críticos con gran cantidad de código. Algunas de las técnicas aplicadas pueden ser la verificación formal, comprobación de modelo y análisis automatizado del programa.<br>
+Verificación formal: Desarrollo de la especificación en lenguajes de programación que permitan su análisis, para la búsqueda de posibles bloqueos en la versión final. Se utiliza la metodología de desarrollo cuarto limpio, que se basa en la prevención de errores mediante procesos matemáticos iterativos.<br>
+Comprobación del modelo: Se crea un modelo del sistema y se analiza mediante herramientas especializadas de software. Sirve especialmente para comprobar sistemas concurrentes, que suelen ser difíciles de probar por su sensibilidad temporal, ya que explora problemas potenciales con diferentes posibilidades de concurrencia.<br>
+Análisis automático: Se analiza el código en búsqueda de posibles fragmentos de código incorrectos a través del uso de patrones. Se trabaja sólo sobre el código fuente (estático), lo que permite mayor rapidez.<br>
+<br>
+ESLint <br>
+<br>
+Lint es el término utilizado para denominar a las herramientas de software que realizan tareas de comprobación de sintaxis, de seguridad, corrección de malas prácticas y análisis de arquitectura del código. Muchos análisis de código estático realizados por programas de tipo lint suelen verse también en los compiladores, especialmente la detección de errores de sintaxis y avisos de posibles construcciones incorrectas. Específicamente ESLint es una herramienta de código abierto enfocada en linting para JavaScript, tanto para servidores como para ejecución local.<br>
+<br>
+Partes:
+<ul type="circle">
+  <li>Parser: Vuelve el código un AST (Abstract Syntax Tree, Árbol de Sintaxis Abstracto) para aplicar las reglas necesarias mediante el recorrido de nodos, aplicando las que corresponden al tipo de nodo.</li>
+  <li>Reglas: Conjunto de funciones lógicas que permiten la detección de problemas de código y qué hacer en caso de encontrarlos.</li>
+  <li>Resultado: Define cómo se muestran los reportes de error. Por defecto se muestran en consola, pero pueden guardarse en logs.</li>
+</ul type="circle">
+<br>
+<br>
 
 ## Test unitario
+### Test unitarios en Jest
+Las pruebas unitarias son el proceso de dividir tu código en pequeñas funciones y probar cada una de esas funciones por separado.<br>
+<br>
+Por ejemplo:<br>
+<br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; Supongamos que estás construyendo una función sum que suma dos números:<br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; function sum(number1, number2){ <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; return number1 + number2; <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; } <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; Una prueba unitaria para esta función solo se preocupa de la entrada y de la salida, con una entrada determinada, debería haber una salida esperada: Si le pasa 12 y 5 como entradas a la función, debería salir (devolver) el número 17.<br>
+<br>
+El framework de pruebas Jest de Javascript introduce una función especial llamada expect para permitirnos realizar las pruebas unitarias, aquí hay un ejemplo de cómo usar expect para crear nuestras pruebas unitarias:<br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; test('12 and 5 should return 17', () => {  <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; let result = sum(12,5);  <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; expect(result).toBe(17); <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; }) <br>
+<br>
+Nota: Las pruebas unitarias no se preocupan por el contenido de la función sum, sólo se preocupan por la SALIDA de la función con una ENTRADA determinada.<br>
+<br>
+Ejemplo de test utilizando Jest: <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; //seteo de ambiente afuera <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; beforeEach(() =>{ <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; let unaPelicula = new Pelicula("Indiana Jones", "Aventura", 1981); <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; }); <br>
+<br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; test("seteo de anio", () => { <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;	// accion que voy a probar <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;	unaPelicula.setAnio(2000); <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;	// Assert <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; expect(unaPelicula.anio).toBe(2000); <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; }); <br>
+<br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; test("Creo una pelicula que esta fuera de los años permitidos", () =>{ <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; try{ <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; unaPelicula.setAnio(2022); <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;	} catch(error) { <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; expect(error).toBeInstanceOf(Error);<br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; // en la parte de setAnio tengo que poner el mismo error <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; expect(error.message).toMatch("Mensaje"); // igual que arriba pero con el mensaje <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;	} <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; });	<br>
+ 
 
-Test unitarios en Jest
-
-100% cobertura en clases de dominio
 
 
-| En la semana previa a la entrega se debe congelar el desarrollo (22-nov-2021).
-A partir de este punto solo se realizan actividades de test de sistema, reporte de issues y generación del informe académico.
 
 ## Test de sistema
 
