@@ -557,7 +557,7 @@ Este modo de depuración es dinámico, lo que permite establecer puntos de inter
 
 Particiones de equivalencia: La partición de equivalencia se basa en la idea de que, en muchos casos, las entradas de un programa se pueden "dividir" en grupos de entradas similares. Por ejemplo, un programa que acepta valores enteros puede aceptar como válida cualquier entrada que sea un número y debería rechazar cualquier otra cosa. Aprovecha las propiedades de las particiones de equivalencia para reducir el número de casos de prueba que se necesitan escribir. Dado que todos los valores en una partición de equivalencia son manejados exactamente de la misma manera por un programa dado, solo se necesita probar uno de ellos como representante de la partición. <br>
 <br>
-<b> Clases de equivalencia: <b> <br>
+<b> Clases de equivalencia: </b> <br>
 <br>
 Usuario <br>
 <table>
