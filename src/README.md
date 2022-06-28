@@ -628,6 +628,10 @@ Pruebas exploratorias: Las pruebas exploratorias son una técnica que combina la
 
 <img width="293" alt="Captura de Pantalla 2022-06-28 a la(s) 00 24 40" src="https://user-images.githubusercontent.com/102233707/176085298-7f104617-b9f2-4bae-881e-9cb9d39a3f53.png">
 
+### Dejar issues abiertos para correcciones o mejoras futuras
+
+<img width="1379" alt="Captura de Pantalla 2022-06-28 a la(s) 00 27 58" src="https://user-images.githubusercontent.com/102233707/176085686-b690892b-5025-4334-b8d3-cd79bc0c9209.png">
+
 ## Reflexión
 
 ### Detalle del trabajo individual
