@@ -122,37 +122,21 @@ Tipos de botones:
 <br>
 Anatomía de botones
 <br>
-<br>
-
---FOTO ANATOMIABOTONES1
-
+<img width="597" alt="Captura de Pantalla 2022-06-28 a la(s) 00 16 14" src="https://user-images.githubusercontent.com/102233707/176084442-e726ebcb-45cd-4db9-93f5-30b7efbfcea6.png">
 <ol>
   <li> <b>Text button</b>
     <ol>A. &nbsp; Text label </ol>
     <ol>C. &nbsp; Icon (opcional)</ol>
   </li>
 </ol>
-
-  
 <br>
-<br>
-  
---FOTO ANATOMIABOTONES2
-<br>
-<br>
-
+<img width="592" alt="Captura de Pantalla 2022-06-28 a la(s) 00 18 30" src="https://user-images.githubusercontent.com/102233707/176084667-06917595-bfc9-4914-94b6-f21349d93718.png">
 &nbsp; <b> 2. &nbsp; Outlined button </b> </u>
     <ol>A. &nbsp; Text label</ol>
     <ol>B. &nbsp; Container</ol>
     <ol>C. &nbsp; Icon (opcional)</ol>
-  
 <br>
-<br>
-  
---FOTO ANATOMIABOTONES3
-<br>
-<br>
-
+<img width="594" alt="Captura de Pantalla 2022-06-28 a la(s) 00 19 13" src="https://user-images.githubusercontent.com/102233707/176084751-7f7426b0-29db-4199-b2f0-bcca0a6e8124.png">
 &nbsp; <b> 3. &nbsp; Contained button </b> </u></u>
     <ol>A. &nbsp; Text label</ol>
     <ol>B. &nbsp; Container</ol>
