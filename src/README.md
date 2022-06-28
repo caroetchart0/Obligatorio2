@@ -283,11 +283,71 @@ https://www.w3.org/WAI/standards-guidelines/wcag/glance/es
       <li> &nbsp; Ayude a los usuarios a evitar y corregir errores</li>
     </ul type="circle">
   </li>
-  <li>.......................................</li>
+ <li>Operable:
+   <ul type="circle">
+      <li> &nbsp; Proporcione acceso a todas las funcionalidades mediante el teclado</li>
+      <li> &nbsp; Conceda a los usuarios tiempo suficiente para leer y usar el contenido</li>
+      <li> &nbsp; No use contenido que pudiera causar convulsiones o reacciones físicas</li>
+      <li> &nbsp; Ayude a los usuarios a navegar y encontrar el contenido</li>
+      <li> &nbsp; Facilite métodos de entrada diferentes al teclado.</li>
+    </ul type="circle">
+  </li>
+  <li>Robusto:
+   <ul type="circle">
+      <li> &nbsp; Maximice la compatibilidad con herramientas de usuario actuales y futuras.</li>
+    </ul type="circle">
+  </li>
 </ul type="circle">
-
+<br>
+<br>
 
 ### Seguir especificación de estilo
+
+https://google.github.io/styleguide/jsguide.html 
+<br>
+<br>
+Este documento sirve como la definición completa de los estándares de codificación de Google para el código fuente en el lenguaje de programación JavaScript. Se describe que un archivo fuente de JavaScript está en Google Style si y solo sí cumple con las reglas establecidas.<br>
+Al igual que otras guías de estilo de programación, los temas tratados abarcan no sólo cuestiones estéticas de formato, sino también otro tipo de estándares de codificación. Sin embargo, este documento se enfoca principalmente en las reglas estrictas que seguimos universalmente y evita dar consejos que no se pueden cumplir claramente (ya sea por humanos o herramientas)<br>
+<br>
+Nombre del Archivo<br>
+Los nombres de los archivos deben estar en minúsculas y pueden incluir guiones bajos _ o guiones -, pero sin puntuación adicional. La extensión de los nombres del archivo deben ser .js.<br>
+<br>
+Tab vs. Espacio<br>
+Usar espacios, no tabs- Aparte del fin de línea (/n), el carácter ASCII de espacio es el único espacio de carácter en blanco que aparece en el código. Esto implica que los caracteres de TAB no se usan para indentar.<br>
+<br>
+Block de indentación +2 espacios<br>
+Cada vez que se abre un nuevo bloque o construcción similar a un bloque. aumenta dos espacios. Cuando finaliza el bloque, vuelve al nivel anterior.
+El ; es obligatorio. El alineamiento horizontal está desaconsejado (pero no prohibido).
+<br>
+<br>
+No uses var<br> 
+Declara todas las variables locales con const o let. Usa const por defecto, a menos que la variable vaya a ser reasignada. La palabra clave var no debe usarse.
+<br>
+<br>
+Una variable por declaración<br>
+Cada declaración de variable local declara una sola variable: Declaraciones como
+let a=1, b=2, c=3 no se usan<br>
+ &nbsp; //mal<br>
+ &nbsp;  &nbsp;  &nbsp; let a=1, b=2, c=3<br>
+ &nbsp; //bien<br>
+ &nbsp;  &nbsp;  &nbsp; let a=1;<br>
+ &nbsp;  &nbsp;  &nbsp; let b=2;<br>
+ &nbsp;  &nbsp;  &nbsp; let c=3;
+<br>
+<br>
+Usar camelCase para nombrar variables<br>
+ &nbsp; //mal<br>
+ &nbsp;  &nbsp;  &nbsp; let edadpersona = 20;<br>
+ &nbsp; //bien<br>
+ &nbsp;  &nbsp;  &nbsp; let edadPersona = 20;<br>
+ 
+Las clases van con UpperCamelCase<br>
+Los nombres de constantes serán en mayúsculas y separadas por un guión bajo.<br>
+Los nombres de constantes usarán CONSTANT_CASE<br>
+No usar continuaciones para strings largos<br>
+No uses continuaciones de línea (es decir, terminar una línea dentro de un literal string con una contrabarra) ni en plantillas de literales string ni normales. Puede llevarnos a errores si un blanco de final de línea viene después de la barra, y es difícil de detectar)<br>
+
+
 
 ## Codificación
 
