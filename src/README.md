@@ -447,9 +447,9 @@ Mantenga estrictamente separadas la estructura (markup), la presentación (styli
  &nbsp;  &nbsp; &nbsp; <  /  html  > <br>
  <br>
  &nbsp;  &nbsp;  Recomendado <br>
-<  !  DOCTYPE html  > <br>
-<  title  >  Saving money, saving bytes<  /  title  > <br>
-<  p  >  Qed. <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; <  !  DOCTYPE html  > <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; <  title  >  Saving money, saving bytes<  /  title  > <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; <  p  >  Qed. <br>
 <br>
 Para fines de optimización del tamaño del archivo y para que sea más fácil de leer,considerar la posibilidad de omitir las etiquetas opcionales. La especificación HTML 5 define qué etiquetas se pueden omitir.<br>
 Omitir type<br>
@@ -462,12 +462,12 @@ No es necesario especificar atributos de tipo en estos contextos, ya que HTML5 i
 &nbsp;  &nbsp; &nbsp;  &nbsp; <  script src="https://www.google.com/js/gweb/analytics/autotrack.js"  ><  /  script  > <br>
  <br>
 HTML Line-Wrapping <br>
-Usar “ ” en vez de ‘ ‘CSSUsar herramientas como W3C CSS validator <br>
+&nbsp;  &nbsp; Usar “ ” en vez de ‘ ‘CSSUsar herramientas como W3C CSS validator <br>
  <br>
 Nombres para Classes <br>
 Utilice nombres de clase que sean lo más cortos posible pero tan largos como sea necesario.Nav en vez de navegador. <br>
  <br>
- Hexadecimal Notation
+ Hexadecimal Notation <br>
 &nbsp;  &nbsp;  No recomendado <br>
 &nbsp;  &nbsp; &nbsp;  &nbsp; color: #eebbcc; <br>
 &nbsp;  &nbsp;  Recomendado <br>
@@ -493,7 +493,7 @@ Utilice nombres de clase que sean lo más cortos posible pero tan largos como se
 &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; } <br> 
 &nbsp;  &nbsp; &nbsp;  &nbsp; Recomendado <br>
 &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; h3 {  <br>
-&&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; font-weight: bold; <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; font-weight: bold; <br>
 &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; } <br>
 <br>
 &nbsp;  &nbsp; Quotation <br>
