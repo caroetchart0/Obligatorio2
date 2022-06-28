@@ -68,7 +68,7 @@ El tipo de Tab que utilizamos en el proyecto es Fixed tabs. Este tipo de barra d
 
 ### Anatomía del componente:
 
--- FOTO ANATOMIA DEL COMPONENTE
+<img width="728" alt="Captura de Pantalla 2022-06-28 a la(s) 00 09 47" src="https://user-images.githubusercontent.com/102233707/176083830-c30a0855-5113-43f9-84a5-0dc293b49d70.png">
 
 <ol><li>Contenedor</li>
 <li>Ícono activo</li>
@@ -86,9 +86,10 @@ Las etiquetas de texto deben describir claramente el contenido que tendrán. A s
 <br>
 <b>Comportamiento del Tab:</b>
 <br>
-Para indicar el cambio de un tab a otro, se aplica un cambio en el color y se subraya para indicar el tab activo.
+Para indicar el cambio de un tab a otro, se aplica un cambio en el color y se subraya para indicar el tab activo. 
 
--- FOTO COMPORTAMIENTO DEL TAB
+<img width="899" alt="Captura de Pantalla 2022-06-28 a la(s) 00 10 20" src="https://user-images.githubusercontent.com/102233707/176083871-471c99e8-1211-46f9-9d3e-6142250052b8.png">
+
 En cuanto a la agrupación de los tabs, es recomendado que queden en una sola línea de manera horizontal en la parte superior del sitio. No es recomendado anidar barras de navegación. Tampoco es recomendado disponer los componentes de la barra de navegación uno debajo de otro como una lista. El posicionamiento de los tabs puede ser junto con un top app bar.
 <br>
 <br>
