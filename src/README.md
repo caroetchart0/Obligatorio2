@@ -149,15 +149,11 @@ Si en algún momento, es necesario disponer de dos o más botones para distintas
 <br>
 <br>
 Recomendado:
-
---FOTO HIDESHOW
-
+<img width="351" alt="Captura de Pantalla 2022-06-28 a la(s) 00 20 50" src="https://user-images.githubusercontent.com/102233707/176084922-d61e5013-7096-427d-8f0d-fdf936dc769a.png">
 <br>
 <br>
 No recomendado:
-
---FOTO CHASESAVE
-
+<img width="589" alt="Captura de Pantalla 2022-06-28 a la(s) 00 21 23" src="https://user-images.githubusercontent.com/102233707/176084974-9b64ad71-e0d2-4f7a-bd81-20a4468e053b.png">
 <br>
 <br>
 Tampoco es recomendado disponer un botón debajo de otro, es mejor que estén secuenciados de forma horizontal.
