@@ -6,41 +6,70 @@ import { MDCSelect } from '@material/select';
 import {MDCSnackbar} from '@material/snackbar';
 import ListaPeliculas from '../../dominio/lista-peliculas.mjs';
 import Pelicula from '../../dominio/pelicula.mjs';
+import { cargarDatosEnHTML, cargarDatosSistema } from './auxiliares.js';
+import Sistema from '../../dominio/sistema.mjs'; 
+import Usuario from '../../dominio/Usuario.mjs';
+import NFT from '../../dominio/NFT.mjs';
 
 const listaPeliculas = new ListaPeliculas();
+const sis = new Sistema();
+cargarDatosSistema(sis);
+
 
 const topAppBarElement = document.querySelector('.mdc-top-app-bar');
 const topAppBar = new MDCTopAppBar(topAppBarElement);
 
-const tabBar = new MDCTabBar(document.querySelector(".mdc-tab-bar"));
-tabBar.listen("MDCTabBar:activated", (activatedEvent) => {
-  document.querySelectorAll(".content").forEach((element, index) => {
-    if (index === activatedEvent.detail.index) {
-      element.classList.remove("sample-content--hidden");
-    } else {
-      element.classList.add("sample-content--hidden");
-    }
-  });
-});
+const email_field = new MDCTextField(document.querySelector('#email_field'));
+const password_field = new MDCTextField(document.querySelector('#password_field'));
 
-const textFieldTitle = new MDCTextField(document.getElementById('title'));
-const textFieldYear = new MDCTextField(document.getElementById('year'));
-const selectGenre = new MDCSelect(document.querySelector('.mdc-select'));
+const loginButton = new MDCRipple(document.getElementById('loginButton'));
+const botonExplorar = new MDCRipple(document.getElementById('exploreTab'));
+const botonCrear = new MDCRipple(document.getElementById('createTab'));
+const botonPerfil = new MDCRipple(document.getElementById('profileTab'));
+const botonAyuda = new MDCRipple(document.getElementById('helpTab'));
+const botonContacto = new MDCRipple(document.getElementById('supportTab'));
+const botonLogout = new MDCRipple(document.getElementById('logoutTab'));
 
-const addButton = new MDCRipple(document.getElementById('addButton'));
-addButton.listen('click', () => {
-  let title = textFieldTitle.value;
-  let year = textFieldYear.value;
-  let genre = selectGenre.value;
-  try {
-    let newPelicula = new Pelicula(title, genre, year);
-    listaPeliculas.agregar(newPelicula);
-  } catch (error) {
-    const snackbar = new MDCSnackbar(document.querySelector('.mdc-snackbar'));
-    snackbar.labelText = error.message;
-    snackbar.open();
-  } finally {
-    let peliculas = listaPeliculas.getPeliculas();
-    console.log(peliculas);
-  }
+
+const paginalogin = document.querySelector('#login');
+
+const main_content = document.getElementById('main_content');
+
+
+botonLogout.listen('click', ()=>{
+  console.log('click')
+  main_content.classList.add('ocultar');
+  document.getElementById("NFT").classList.add("ocultar")
+  paginalogin.classList.remove('ocultar');
+  sis.usuarioActivo = undefined;
 })
+
+loginButton.listen('click', ()=>{
+  console.log('click')
+  var email = email_field.value;
+  var contra = password_field.value;
+  let usuarios = sis.darUsuarios();
+  let login = false;
+  console.log(email, contra)
+  for(let i=0; i<usuarios.length;i++){
+    if(usuarios[i].email == email && usuarios[i].contrasenia == contra){
+      sis.usuarioActivo = usuarios[i];
+      main_content.classList.remove('ocultar');
+      document.getElementById("NFT").classList.remove("ocultar")
+      botonExplorar.emit('click')
+      login = true;
+    }
+  }
+  if(!login){
+    alert('USUARIO INCORRECTO');
+  }
+  
+})
+
+botonExplorar.listen('click', () => {
+  //llamo a cargarNFT en sistema y despues en HTML
+  main_content.classList.remove('ocultar');
+  paginalogin.classList.add('ocultar');
+  cargarDatosEnHTML(sis);  
+})
+

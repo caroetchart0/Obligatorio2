@@ -1,10 +1,8 @@
 @use "@material/theme" with (
-  $primary: #00bcd4,
-  $secondary: #f44336,
-  $background: #c7c7c7,
+  $primary: #000000,
+  $secondary: #e5acf0,
+  $background: #ababab,
 );
-@use '@material/button/mdc-button';
-@use '@material/button';
 @use "@material/drawer";
 @use "@material/list";
 @use "@material/tab-bar/mdc-tab-bar";
@@ -13,74 +11,82 @@
 @use "@material/tab/mdc-tab";
 @use "@material/icon-button";
 @use "@material/top-app-bar/mdc-top-app-bar";
+@use "@material/card";
+@use "@material/image-list";
+@use "@material/image-list/mdc-image-list";
+@use "@material/button/styles";
 @use "@material/floating-label/mdc-floating-label";
 @use "@material/line-ripple/mdc-line-ripple";
 @use "@material/notched-outline/mdc-notched-outline";
 @use "@material/textfield";
-@use "@material/card";
-@use "@material/list/mdc-list";
-@use "@material/menu-surface/mdc-menu-surface";
-@use "@material/menu/mdc-menu";
-@use "@material/select/styles";
 @use "@material/snackbar/mdc-snackbar";
 
-@include card.core-styles;
 @include textfield.core-styles;
+
+.my-image-list {
+  @include image-list.standard-columns(5);
+}
+@include card.core-styles;
+@include icon-button.core-styles;
+
+.mdc-tab-bar {
+  background-color: #e5acf0;
+}
 
 html {
   scroll-behavior: smooth;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mdc-top-app-bar__title{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.mdc-tab__text-label{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.my-card-content {
+  padding: 16px;
+}
+
+.mdc-card{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.element-card {
+  width: 20em;
+  margin: 16px;
+}
+
+.element-card > .mdc-card__media {
+  height: 1em;
 }
 
 body {
-  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: 0px auto;
+  background: #A770EF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.menu {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.ocultar{
+  display:none;
 }
 
-.app-bar {
-  position: absolute;
-}
-
-.mdc-top-app-bar {
-  z-index: 7;
-  @include icon-button.core-styles;
-}
-
-section {
-  text-align: center;
-}
-
-.content {
-  margin: 10rem auto;
-  padding-bottom: 20rem;
-  text-align: center;
-}
-
-.sample-content--hidden {
-  display: none;
-}
-
-.mdc-tab {
-    background-color: #67daff;
-}
-
-.mdc-tab__content .mdc-tab__text-label {
-    color: black;
-}
-
-.mdc-text-field {
-    margin: 1rem auto;
-}
-
-.button {
-  margin-top: 1rem;
-}
-
-.mdc-snackbar__actions .mdc-button__label {
-  color: #67daff;
+#NFT{
+  display: flex;
+  align-items: center;
 }
