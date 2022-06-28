@@ -342,14 +342,163 @@ Usar camelCase para nombrar variables<br>
  &nbsp;  &nbsp;  &nbsp; let edadpersona = 20;<br>
  &nbsp; //bien<br>
  &nbsp;  &nbsp;  &nbsp; let edadPersona = 20;<br>
- 
+ <br>
 Las clases van con UpperCamelCase<br>
 Los nombres de constantes serán en mayúsculas y separadas por un guión bajo.<br>
 Los nombres de constantes usarán CONSTANT_CASE<br>
 No usar continuaciones para strings largos<br>
 No uses continuaciones de línea (es decir, terminar una línea dentro de un literal string con una contrabarra) ni en plantillas de literales string ni normales. Puede llevarnos a errores si un blanco de final de línea viene después de la barra, y es difícil de detectar)<br>
-
-
+<br>
+<br>
+Line-wrapping: El ajuste de línea divide un fragmento de código en varias líneas par obedecer el límite de la columna, donde el fragmento podría caber legalmente en una sola línea
+<br>
+<br>
+ &nbsp; &nbsp; //preferible <br>
+ &nbsp; &nbsp;  &nbsp; &nbsp; currentEstimate = <br>
+ &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; calc(currentEstimate + x * currentEstimate) / <br>
+ &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; 2.0; <br>
+ &nbsp; &nbsp; //no recomendado <br>
+ &nbsp; &nbsp; &nbsp; &nbsp; currentEstimate = calc(currentEstimate + x * <br>
+ &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; currentEstimate) / 2.0;
+<br>
+<br>
+Aplicar indentación a las líneas de continuación de por lo menos +4 espacios.
+<br>
+<br>
+Usar comillas simples, no dobles<br>
+Los literales de cadena se delimitan con comillas simples no comillas dobles.<br>
+// mal <br>
+let directive = "No identification of self or mission."; <br>
+// bien <br>
+let directive = 'No identification of self or mission.'; 
+<br>
+<br>
+HTML y CSS<br>
+https://google.github.io/styleguide/htmlcssguide.html <br>
+Este documento define las reglas de formato y estilo para HTML y CSS. Su objetivo es mejorar la colaboración, la calidad del código y habilitar la infraestructura de soporte. Se aplica a archivos de trabajo sin procesar que utilizan HTML y CSS, incluidos los archivos GSS. Las herramientas son libres de minimizar y compilar siempre que se mantenga la calidad general del código. <br>
+Usar HTTPS <br>
+Usar siempre HTTPS para imágenes y otros archivos multimedia, hojas de estilo y scripts, a menos que los archivos no estén disponibles a través de HTTPS.<br>
+<br>
+Indentación<br>
+2 espacios a la vez, no utilizar tabulaciones.<br>
+<br>
+<br>
+Usar LowerCase <br>
+ &nbsp;  &nbsp;  No recomendado <br>
+ &nbsp;  &nbsp;  &nbsp; color: #E5E5E5; <br>
+ &nbsp; &nbsp;  Recomendado <br>
+ &nbsp;  &nbsp;  &nbsp; color: #e5e5e5; <br>
+ <br>
+HTML <br>
+HTML5 es el preferido <br>
+No use XHTML. XHTML,  carece de compatibilidad con el navegador y la infraestructura, y ofrece menos espacio para la optimización (que HTML). <br>
+Use herramientas como W3C HTML validator para validar el código <br>
+El uso de HTML válido es un atributo de calidad de referencia medible que contribuye a conocer los requisitos y las restricciones técnicas, y que garantiza el uso adecuado de HTML. <br>
+ <br>
+Semántica  <br>
+Utilizar los elementos (a veces llamados incorrectamente "tags") para lo que fueron creados. Por ejemplo, usa heading para encabezados, p para párrafos, a para anchors,etc. El uso de HTML de acuerdo con su propósito es importante por razones de accesibilidad, reutilización y eficiencia del código. <br>
+Proporcionar contenidos alternativos para multimedia. <br>
+Para multimedia, como imágenes, videos, objetos animados, asegurarse de ofrecer un acceso alternativo. Para imágenes, eso significa el uso de texto alternativo (alt) y también para transcripciones y subtítulos de video y audio (si están disponibles).Proporcionar contenidos alternativos es importante por razones de accesibilidad: el usuario invidente tiene pocas pistas para saber de qué se trata una imagen sin @alt, yes posible que otros usuarios tampoco tengan forma de entender de qué se tratan los contenidos de video o audio.(Para imágenes cuyos atributos alt introducirán redundancia, y para imágenes cuyo propósito es puramente decorativo y no se pueda hacer con CSS, no usar texto alternativo, pero poner (alt="".) <br>
+<br>
+ &nbsp;  &nbsp;  No recomendado <br>
+ &nbsp;  &nbsp;  &nbsp;  <  img src="spreadsheet.png"   >  <br>
+ &nbsp;  &nbsp;  Recomendado /* <br>
+ &nbsp;  &nbsp; &nbsp;  <  img src="spreadsheet.png" alt="Spreadsheet screenshot."  >  <br>
+<br>
+Separar la Estructura de la presentación, de la de Comportamiento.<br>
+Mantenga estrictamente separadas la estructura (markup), la presentación (styling) y el comportamiento (scripting), e intente mantener la interacción entre los tres al mínimoabsoluto.Es decir, asegúrese de que los documentos y las plantillas contienen solo HTML y HTML que  tenga fines estructurales. Mover todo lo relacionado con la presentación de hojas de estilo y todo lo relacionado con el comportamiento a scripts.<br>
+<br>
+ &nbsp;  &nbsp;  No recomendado <br>
+<  !DOCTYPE html  > <br>
+<  title  >HTML sucks< /  title  > <br>
+ &nbsp;  &nbsp;  &nbsp;  <   link rel="stylesheet" href="base.css" media="screen"  > <br>
+ &nbsp;  &nbsp;  &nbsp;  <   link rel="stylesheet" href="grid.css" media="screen"  > <br>
+ &nbsp;  &nbsp;  &nbsp;  <   link rel="stylesheet" href="print.css" media="print"  > <br>
+ &nbsp;  &nbsp;  &nbsp;  <  h1  >   style="font-size: 1em;">HTML sucks    <  /h1  > <br>
+ &nbsp;  &nbsp;  &nbsp;  <  p  >   I’ve read about this on a few sites but now I’m sure:   <br>
+ &nbsp;  &nbsp;  &nbsp;  <  u  >   HTML is stupid!!   < /  u  > <br>
+ &nbsp;  &nbsp;  &nbsp;  <  center  >   I can’t believe there’s no way to control the styling of  my website without doing everything all over again!     <  / center  >    <br>
+ <br>
+ &nbsp;  &nbsp;  Recomendado  <br>
+ &nbsp;  &nbsp; &nbsp;  &nbsp; <  !  DOCTYPE html  > <br>
+ &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; < title >   My first CSS-only redesign< /  title  > <br>
+ &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; <  link rel="stylesheet" href="default.css". > <br>
+ &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; <  h1 >  My first CSS-only redesign  < /  h1  > <br>
+ &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; <  p  > I’ve read about this on a few sites but today I’m actually  doing it: separating concerns and avoiding anything in the HTML of  my website that is presentational. <br>
+ &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; <  p  > It’s awesome! <br>
+ &nbsp;  &nbsp; &nbsp;  &nbsp; No uses “Entity references” <br>
+ <br>
+ &nbsp;  &nbsp;  No recomendado <br>
+ &nbsp;  &nbsp;  &nbsp;  &nbsp; The currency symbol for the Euro is &ldquo;&eur;&rdquo;. <br>
+ <br>
+ &nbsp;  &nbsp;  Recomendado  <br>
+ &nbsp;  &nbsp;   &nbsp;  &nbsp; The currency symbol for the Euro is “€”. <br>
+ &nbsp;  &nbsp;   &nbsp;  &nbsp; Evitar Tags opcionales <br>
+ <br>
+ &nbsp;  &nbsp;  No recomendado <br>
+ &nbsp;  &nbsp; &nbsp;  &nbsp; <  !  DOCTYPE html  > <br>
+ &nbsp;  &nbsp; &nbsp;  &nbsp; <  html  >   <br>
+ &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; <  head  >    <br>
+ &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; <  title  >Spending money, spending bytes<  /  title  >  <br>
+ &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;<  /  head  >  <br>
+ &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp; <  body  >    <br>
+ &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; <  p  >Sic.<  /  p  >  <br>
+ &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  <  /  body  ><br>
+ &nbsp;  &nbsp; &nbsp; <  /  html  > <br>
+ <br>
+ &nbsp;  &nbsp;  Recomendado <br>
+<  !  DOCTYPE html  > <br>
+<  title  >  Saving money, saving bytes<  /  title  > <br>
+<  p  >  Qed. <br>
+<br>
+Para fines de optimización del tamaño del archivo y para que sea más fácil de leer,considerar la posibilidad de omitir las etiquetas opcionales. La especificación HTML 5 define qué etiquetas se pueden omitir.<br>
+Omitir type<br>
+No es necesario especificar atributos de tipo en estos contextos, ya que HTML5 implica text/css y text/javascript como valores predeterminados. Esto se puede hacer de forma segura incluso para navegadores más antiguos.<br>
+<br>
+&nbsp;  &nbsp;  No recomendado <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; <  script src="https://www.google.com/js/gweb/analytics/autotrack.js"    type="text/javascript"  ><  /  script  > <br>
+<br>
+ &nbsp;  &nbsp;  Recomendado <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; <  script src="https://www.google.com/js/gweb/analytics/autotrack.js"  ><  /  script  > <br>
+ <br>
+HTML Line-Wrapping <br>
+Usar “ ” en vez de ‘ ‘CSSUsar herramientas como W3C CSS validator <br>
+ <br>
+Nombres para Classes <br>
+Utilice nombres de clase que sean lo más cortos posible pero tan largos como sea necesario.Nav en vez de navegador. <br>
+ <br>
+ Hexadecimal Notation
+&nbsp;  &nbsp;  No recomendado <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; color: #eebbcc; <br>
+&nbsp;  &nbsp;  Recomendado <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; color: #ebc; <br>
+<br> 
+&nbsp;  &nbsp; Usar 3 digitos <br> 
+&nbsp;  &nbsp; Evitar usar !important <br> 
+&nbsp;  &nbsp; Estas declaraciones rompen la cascade de CSS y dificultan el razonamiento y la composición de estilos. <br> 
+&nbsp;  &nbsp; Poner declaraciones en orden alfabetico <br> 
+&nbsp;  &nbsp; background: fuchsia; <br> 
+&nbsp;  &nbsp; border: 1px solid; <br> 
+&nbsp;  &nbsp; -moz-border-radius: 4px; <br> 
+&nbsp;  &nbsp; -webkit-border-radius: 4px; <br> 
+&nbsp;  &nbsp; border-radius: 4px; <br> 
+&nbsp;  &nbsp; color: black;text-align: center; <br> 
+&nbsp;  &nbsp; text-indent: 2em; <br> 
+&nbsp;  &nbsp; Misma indentación <br> 
+<br>
+&nbsp;  &nbsp; Usar espacios <br> 
+&nbsp;  &nbsp; &nbsp;  &nbsp;  No recomendado <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; h3 {  <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; font-weight:bold; <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; } <br> 
+&nbsp;  &nbsp; &nbsp;  &nbsp; Recomendado <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; h3 {  <br>
+&&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; font-weight: bold; <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; } <br>
+<br>
+&nbsp;  &nbsp; Quotation <br>
+&nbsp;  &nbsp; &nbsp;  &nbsp;  Usar ‘ ’ en vez de “ ”No usar quotation marks para URLs <br>
+<br>
 
 ## Codificación
 
