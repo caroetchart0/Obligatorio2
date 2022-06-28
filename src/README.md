@@ -40,28 +40,20 @@ Si bien en la especificación desarrollamos una interfaz de usuario bastante com
 ### Página única con navegación entre secciones
 Para poder implementar el proyecto con un único archivo .html, agregamos una clase en scss que permitiera ocultar una sección dado un evento, en este caso, el click de cada componente de la barra de navegación.
 <br>
-En los div que corresponden a las distintas secciones de la barra de navegación se les agregó la clase ocultar (class="ocultar").
-
--- FOTO DIV
-
+En los div que corresponden a las distintas secciones de la barra de navegación se les agregó la clase ocultar (class="ocultar"). <br>
+<img width="792" alt="Captura de Pantalla 2022-06-28 a la(s) 00 00 21" src="https://user-images.githubusercontent.com/102233707/176082950-09a35169-f05e-4861-ab68-b76fca34765d.png">
 <br>
 <br>
-Luego, en el scss especificamos qué necesitan esos componentes de la clase ocultar:
-
+Luego, en el scss especificamos qué necesitan esos componentes de la clase ocultar:<br>
+<br>
 .ocultar{<br>
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; display:none;<br>
-}
-
--- FOTO OCULTAR
-
+} <br>
+<img width="323" alt="Captura de Pantalla 2022-06-28 a la(s) 00 02 01" src="https://user-images.githubusercontent.com/102233707/176082992-24447c44-5f2e-405e-b2ff-b30ceec23628.png">
 <br>
 <br>
-Por último, para aplicar y quitar la clase ocultar, a cada componente que obtuvimos con document.getElementById(...); Le agregamos (.classList.add('ocultar');) o quitamos (classList.remove('ocultar');) el estilo de ocultar.
-
--- FOTO CLICK
-
-<br>
-<br>
+Por último, para aplicar y quitar la clase ocultar, a cada componente que obtuvimos con document.getElementById(...); Le agregamos (.classList.add('ocultar');) o quitamos (classList.remove('ocultar');) el estilo de ocultar.<br>
+<img width="861" alt="Captura de Pantalla 2022-06-28 a la(s) 00 02 37" src="https://user-images.githubusercontent.com/102233707/176083071-2a459e90-565f-400d-aa33-a45043a164c6.png">
 
 ### Implementación: Material Design Web Components
 
