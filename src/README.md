@@ -4,6 +4,7 @@ Fecha de entrega: 29-nov-2021
 ## Construcción
 
 ### Implementación de funciones principales (sin la necesidad de persistencia de datos)
+
 En principio, evaluamos como equipo qué funcionalidades están a nuestro alcance de desarrollo teniendo en cuenta el tiempo que tenemos hasta la entrega y el nivel de complejidad de las funciones que especificamos. Teniendo en cuenta estas dos restricciones que tenemos, y además que somos un integrante menos, llegamos a que las funcionalidades a implementar serán: 
 <ol><b>1.</b> Login</ol>
 <ol><b>2.</b> Crear NFT</ol>
@@ -73,6 +74,7 @@ Principios de los Tabs:
 <li>Informativos: Los tabs organizan el contenido en diferentes categorías para ayudar al usuario a encontrar fácilmente la información </li></ul type="circle">
 El tipo de Tab que utilizamos en el proyecto es Fixed tabs. Este tipo de barra de navegación muestra todos los tabs en la misma pantalla, cada uno con igual espaciado.
 <br>
+
 ### Anatomía del componente:
 
 -- FOTO ANATOMIA DEL COMPONENTE
@@ -541,18 +543,68 @@ Ejemplo de test utilizando Jest: <br>
 &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; expect(error.message).toMatch("Mensaje"); // igual que arriba pero con el mensaje <br>
 &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;	} <br>
 &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; });	<br>
- 
-
-
-
+<br>
 
 ## Test de sistema
 
-Realizar test de sistema en un entorno separado del desarrollo
+### Realizar test de sistema en un entorno separado del desarrollo
 
-Generar casos de prueba aplicando técnica partición equivalente
+https://docs.microsoft.com/es-es/office/dev/add-ins/testing/debug-with-vs-extension 
+<br>
+Este modo de depuración es dinámico, lo que permite establecer puntos de interrupción mientras se ejecuta el código. Puede ver los cambios en el código inmediatamente mientras se adjunta el depurador, todo sin perder la sesión de depuración. Los cambios de código también persisten, por lo que puede ver los resultados de varios cambios en el código. <br>
+
+### Generar casos de prueba aplicando técnica partición equivalente
+
+Particiones de equivalencia: La partición de equivalencia se basa en la idea de que, en muchos casos, las entradas de un programa se pueden "dividir" en grupos de entradas similares. Por ejemplo, un programa que acepta valores enteros puede aceptar como válida cualquier entrada que sea un número y debería rechazar cualquier otra cosa. Aprovecha las propiedades de las particiones de equivalencia para reducir el número de casos de prueba que se necesitan escribir. Dado que todos los valores en una partición de equivalencia son manejados exactamente de la misma manera por un programa dado, solo se necesita probar uno de ellos como representante de la partición. <br>
+<br>
+<b> Clases de equivalencia: <b> <br>
+<br>
+Usuario <br>
+<table>
+  <tr>
+    <td> <b> Entrada/ Variable </b> </td>
+    <td> <b> Clases Válidas </b> </td>
+    <td> <b> Clases no válidas </b> </td>  </tr>
+  <tr>
+    <td> email </td>
+    <td> email no registrado (1) </td>
+    <td> email ya registrado (5) <br>
+      email con formato (6) <br>
+      incorrecto (7) <br> </td>
+  </tr>
+  <tr>
+    <td> contraseña </td>
+    <td> 8 caracteres o más (2) </td>
+    <td> 7 caracteres o menos (8) </td>
+  </tr>
+    <tr>
+    <td> mayor de edad </td>
+    <td> true (3) </td>
+    <td> false (9) </td>
+  </tr>
+  </tr>
+    <tr>
+    <td> nombre </td>
+    <td> no repetido (4) </td>
+    <td> repetido (10) </td>
+  </tr>
+  </tr>
+    <tr>
+    <td> mayor de edad </td>
+    <td> true (3) </td>
+    <td> false (9) </td>
+  </tr>
+</table>
+<br>
+
+
 
 Detallar sesiones de prueba exploratoria
+
+
+
+
+
 
 ## Reporte de issues
 
