@@ -81,7 +81,7 @@ El tipo de Tab que utilizamos en el proyecto es Fixed tabs. Este tipo de barra d
 <br>
 <br>
 
-###Anatomía del componente:
+### Anatomía del componente:
 
 
 -- FOTO ANATOMIA DEL COMPONENTE
